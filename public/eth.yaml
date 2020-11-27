@@ -1,0 +1,326 @@
+---
+- title: "Yearn Finance"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/yearn-finance-dai-vault-exploit
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/curve-liquidity-providers-see-3m-windfall-from-11m-yearn-finance-exploit
+  description: "DeFi protocol Yearn Finance has reported that its DAI vault was exploited by a hacker."
+  when: 1612483200000 # 2021-02-05
+  stolen_usd: 11000000
+  stolen_usd_str: "11 Million"
+
+- title: "Cover Protocol"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/cover-protocol-attack-perpetrated-by-white-hat-all-funds-returned-hacker-claims
+    - text: Exploit Guide
+      link: https://mudit.blog/cover-protocol-hack-analysis-tokens-minted-exploit/
+  description: "A bug was exploited in the Cover protocol’s liquidity mining/farming contract called Blacksmith. Multiple hackers used the bug to mint practically infinite tokens."
+  when: 1609113600000 # 2020-12-28
+  stolen_usd: 5000000
+  stolen_usd_str: "$5 Million ($3M Returned)"
+
+- title: "Warp Finance"
+  urls:
+    - text: CryptoPotato
+      link: https://cryptopotato.com/another-defi-hack-7-7-million-stolen-in-a-flash-loan-attack-from-warp-finance/
+    - text: CoinGeek
+      link: https://coingeek.com/defi-platform-warp-finance-losses-8-million/
+  description: "Funds stolen in a flash loan attack."
+  when: 1608249600000 # 2020-12-18
+  stolen_usd: 7700000
+  stolen_usd_str: "$7.7 Million"
+
+- title: "Pickle Finance"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/defi-protocol-pickle-finance-token-loses-almost-half-its-value-after-19-7m-hack
+    - text: Decrypt.co
+      link: https://decrypt.co/49149/pickle-finance-hack
+  description: "The DeFi protocol Pickle Finance lost nearly $20 million in DAI in a loophole on Saturday. The exploit involves Pickle Finance's DAI pJar product, which uses the Compound protocol to reap revenue through DAI deposits."
+  when: 1606003200000 # 2020-11-22
+  stolen_usd: 20000000
+  stolen_usd_str: "$20 Million"
+
+- title: "OUSD"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/origin-brings-back-interest-earning-ousd-stablecoin-following-7m-hack
+  description: "Funds stolen in a flash loan attack."
+  when: 1605571200000 # 2020-11-17
+  stolen_usd: 7000000
+  stolen_usd_str: "$7 Million"
+
+- title: "Cheese Bank"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/cheese-bank-s-multi-million-dollar-hack-explained-by-security-firm
+  description: "Funds stolen in a flash loan attack."
+  when: 1605484800000 # 2020-11-16
+  stolen_usd: 3300000
+  stolen_usd_str: "$3.3 Million"
+
+- title: "Value DeFi"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/value-defi-suffers-6m-flash-loan-attack
+    - text: Decrypt.co
+      link: https://decrypt.co/48892/value-defi-hacked-chainlink
+  description: "Funds stolen in a flash loan attack."
+  when: 1605312000000 # 2020-11-14
+  stolen_usd: 6000000
+  stolen_usd_str: "$6 Million"
+
+- title: "Akropolis"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/akropolis-defi-protocol-paused-as-hackers-get-away-with-2m-in-dai
+  description: "Hackers took advantage of the storage asset verification flaws in the Akropolis project to launch multiple consecutive reentry attacks on the contract."
+  when: 1605225600000 # 2020-11-13
+  stolen_usd: 2000000
+  stolen_usd_str: "$2 Million"
+
+- title: "PercentFinance"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/percentfinance-buggy-code-froze-1m-ethereum-tokens
+  description: "One of the developers decided to upgrade the smart contracts, but after doing so, they realized that transactions to the new contracts couldn’t be signed. Hence, the old contracts were broken."
+  when: 1604448000000 # 2020-11-04
+  stolen_usd: 1000000
+  stolen_usd_str: "$1 Million"
+
+- title: "Axion Network"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/certik-dissects-the-axion-network-incident-and-subsequent-price-crash
+  description: "Axion Network launched the token AXN and was hacked a few hours after it by minting 79 billion AXN directly sold to the market."
+  when: 1604275200000 # 2020-11-02
+  stolen_usd: 500000
+  stolen_usd_str: "$500,000"
+
+- title: "Harvest"
+  urls:
+    - text: Cryptobriefing
+      link: https://cryptobriefing.com/hackers-drain-defi-protocol-harvest-finance-24-million/
+  description: "The attacker used an exploit to flash loans to manipulate stablecoin prices on the decentralized exchange Curve and used arbitrage to buy more stablecoins than they would normally be able to."
+  when: 1603670400000 # 2020-10-26
+  stolen_usd: 33800000
+  stolen_usd_str: "$33.8 Million"
+
+- title: "WLEO"
+  urls:
+    - text: Decrypt.co
+      link: https://decrypt.co/44645/ethereum-project-wleo-hacked-for-42000-on-uniswap
+  description: "The hackers stole Ethereum from the pool of the decentralized exchange Uniswap by casting WLEO to themselves and replacing it with Ethereum"
+  when: 1602460800000 # 2020-10-12
+  stolen_usd: 42000
+  stolen_usd_str: "$42,000"
+
+- title: "UniCats"
+  urls:
+    - text: Decrypt.co
+      link: https://decrypt.co/43927/ethereum-user-scammed-for-140000-in-uniswap-uni-tokens
+  description: "A UniCats app with a yield farming feature had a backdoor, which enabled its developer to control users’ funds even when they withdrew money from the platform."
+  when: 1602288000000 # 2020-10-10
+  stolen_usd: 200000
+  stolen_usd_str: "$200,000"
+
+- title: "Eminence"
+  urls:
+    - text: Cryptobriefing
+      link: https://cryptobriefing.com/unaudited-crypto-gaming-platform-eminence-hacked-15-million/
+  description: "Users threw $15 million into this contract that was in the beta stage and it had a vulnerability, and hackers drained users’ funds by minting EMN tokens."
+  when: 1601337600000 # 2020-09-29
+  stolen_usd: 15000000
+  stolen_usd_str: "$15 Million ($8M Returned)"
+
+- title: "Soda Finance"
+  urls:
+    - text: Medium
+      link: https://anchainai.medium.com/soda-finance-hack-could-formal-verification-have-prevented-it-code-included-71b6e9f94ea5
+  description: "This Project DeFi was hacked by malicious actors, who subsequently liquidated over 400 ETH from the Soda loan pool."
+  when: 1601337600000 # 2020-09-29
+  stolen_usd: 160000
+  stolen_usd_str: "$160,000"
+
+- title: "bZx (round 3)"
+  urls:
+    - text: bZx Network
+      link: https://bzx.network/blog/incident
+  description: "While the first two exploits involved manipulating external protocols, this third hack took advantage of an internal protocol flaw."
+  when: 1600041600000 # 2020-09-14
+  stolen_usd: 8000000
+  stolen_usd_str: "$8 Million (Returned)"
+
+- title: "Soft Yearn (SYFI)"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/jackpot-user-turns-200-into-250k-thanks-to-a-buggy-defi-protocol
+  description: "Rebase bug was exploited by a holder of Soft Yearn (SYFI) token on Sept. 3. The bug enabled a user to turn a $200 investment into $250,000."
+  when: 1599696000000 # 2020-09-10
+  stolen_usd: 250000
+  stolen_usd_str: "$250,000"
+
+- title: "YAM"
+  urls:
+    - text: Cryptobriefing
+      link: https://cryptobriefing.com/no-audits-no-problem-defi-stablecoin-yam-attracts-over-100-million/
+  description: "YAM officially posted on Twitter that it found loopholes in the contract. The price plummeted by 99% within 24 hours, resulting in the “permanent destruction” of the governance contract. Curve tokens worth 750,000 USD It is locked and cannot be used."
+  when: 1597276800000 # 2020-08-13
+  stolen_usd: 750000
+  stolen_usd_str: "$750,000"
+
+- title: "Opyn"
+  urls:
+    - text: Cryptobriefing
+      link: https://cryptobriefing.com/defi-options-protocol-opyn-hacked-371000-lost/
+  description: "A smart contract bug allowed a double-spending attack, causing options protocol Opyn to lose funds."
+  when: 1596499200000 # 2020-08-04
+  stolen_usd: 370000
+  stolen_usd_str: "$370,000"
+
+- title: "VETH"
+  urls: []
+  description: "VETH suffered a hacker attack on the decentralized exchange Uniswap. VETH officially stated that the contract was used by the UX improvement it placed in transferForm(), which was their fault."
+  when: 1593561600000 # 2020-07-01
+  stolen_usd: 900000
+  stolen_usd_str: "$900,000"
+
+- title: "Balancer"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/hacker-drains-defi-liquidity-balancer
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/defi-protocol-balancer-hacked-through-exploit-it-seemingly-knew-about
+  description: "Attack similar to what bZx suffered from. The attacker used a flash loan to borrow a large amount of ETH and traded ETH against STA to decrease the number of STA tokens in the pool."
+  when: 1593403600000 # 2020-06-29
+  stolen_usd: 500000
+  stolen_usd_str: "$500,000"
+
+- title: "Uniswap - BZRX IDO"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/hacker-drains-defi-liquidity-balancer
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/defi-protocol-balancer-hacked-through-exploit-it-seemingly-knew-about
+  description: "Not a real hack, but during BZRX IDO, a bot was able to spam the network and took advantage in the orders"
+  when: 1592092800000 # 2020-06-14
+  stolen_usd: 530000
+  stolen_usd_str: "$530,000"
+
+- title: "Bancor (round 2)"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/bancor-discovers-critical-vulnerability-hacks-itself-to-prevent-theft
+  description: "Hack due to the unverified safeTransferFrom() function in the new Bancor network contract."
+  when: 1592453200000 # 2020-06-18
+  stolen_usd: 135000
+  stolen_usd_str: "$135,000"
+
+- title: "Hegic"
+  urls:
+    - text: Cryptobriefing
+      link: https://cryptobriefing.com/defi-bug-freezes-30000-ether-forever/
+  description: "Not hacked but a typo in the project’s code led to freezing users’ assets."
+  when: 1587787600000 # 2020-04-25
+  stolen_usd: 48000
+  stolen_usd_str: "$48,000"
+
+- title: "dForce and Lendf.me"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/dforce-hacker-returns-almost-all-of-stolen-25m-in-crypto
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/dforce-hacker-attempts-to-negotiate-after-allegedly-leaking-his-identity
+  description: "A hacker took $25 million from a decentralized lending platform Lendf.me. He used a vulnerability from ERC-777 token standard. The Hacker returned the money to the admin."
+  when: 1587269261000 # 2020-04-19
+  stolen_usd: 25000000
+  stolen_usd_str: "$25 Million (Returned)"
+
+- title: "Uniswap"
+  urls:
+    - text: Exploit Analysis
+      link: https://blog.openzeppelin.com/exploiting-uniswap-from-reentrancy-to-actual-profit/
+  description: "Uniswap was hacked and lost 1278 ETH by using ERC777 Reentrancy Hack"
+  when: 1587168000000 # 2020-04-18
+  stolen_usd: 220000
+  stolen_usd_str: "$220,000"
+
+- title: "bZx + bZx (round 2)"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/defi-project-bzx-exploited-for-second-time-in-a-week-loses-630k-in-ether
+    - text: Cryptobriefing
+      link: https://cryptobriefing.com/trader-exploits-bzx-oracle-330000-profit/
+  description: "bZx is a DeFi project focused on margin trading and lending, had a troubled start of 2020 with two consecutive hacks."
+  when: 1581984000000 # 2020-03-18
+  stolen_usd: 1000000
+  stolen_usd_str: "$1 Million"
+
+- title: "MakerDao"
+  urls:
+    - text: Makerdao Blog
+      link: https://blog.makerdao.com/the-market-collapse-of-march-12-2020-how-it-impacted-makerdao/
+  description: "The platform ended up in over $8 million in debt as some of its loans were liquidated for free."
+  when: 1581465600000 # 2020-03-12
+  stolen_usd: 8000000
+  stolen_usd_str: "$8 Million"
+
+- title: "SpankChain"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/spankchain-loses-40k-in-hack-due-to-smart-contract-bug
+  description: "The attacker created a malicious contract masquerading as an ERC20 token, and the transfer function re-invokes the payment channel contract repeatedly. 165.38 ETH Stolen"
+  when: 1539907200000 # 2018-10-09
+  stolen_usd: 40000
+  stolen_usd_str: "$40,000"
+
+- title: "Bancor"
+  urls:
+    - text: Techcrunch
+      link: https://techcrunch.com/2018/07/10/bancor-loses-23-5m/?guccounter=1
+  description: "A wallet used to upgrade smart contracts was hacked, and withdrew most of the money."
+  when: 1531180800000 # 2018-07-10
+  stolen_usd: 23500000
+  stolen_usd_str: "$23.5 Million"
+
+- title: "Parity"
+  urls:
+    - text: Parity.io Postmortem
+      link: https://www.parity.io/the-multi-sig-hack-a-postmortem/
+  description: "The issue is the result of a bug in a specific multi-signature contract."
+  when: 1500508800000 # 2017-07-20
+  stolen_usd: 30000000
+  stolen_usd_str: "$30 Million"
+
+- title: "The DAO"
+  urls:
+    - text: Coindesk
+      link: https://www.coindesk.com/understanding-dao-hack-journalists
+  description: "The DAO smart contract running on the Ethereum suffered a reentrancy-attack-on-smart-contract."
+  when: 1497657600000 # 2017-06-17
+  stolen_usd: 60000000
+  stolen_usd_str: "$60 Million"
+
+# Tokens
+
+- title: SmartMesh (SMT) Token
+  urls:
+    - text: SmartMesh
+      link: https://medium.com/smartmesh/smartmesh-announcement-on-ethereum-smart-contract-overflow-vulnerability-f1ded8777720
+    - text: Medium
+      link: https://medium.com/@LindaWillemse/smartmesh-and-other-erc-20-tokens-batchoverflow-vulnerability-and-how-huobi-pro-okex-and-other-2977e1a0f856
+  description: SmartMesh (SMT) has an overflow vulnerability, the attacker performs an overflow attack by calling batchTransfers like BEC Token.
+  when: 1524614400000
+  stolen_usd: 0
+  stolen_usd_str: "Unknown"
+
+- title: Beautychain (BEC) Token
+  urls:
+    - text: Techcrunch
+      link: https://techcrunch.com/2018/04/25/overflow-error-shuts-down-token-trading/
+  description: "Hacker exploited the data overflow to attack the smart contract of BeautyChain, successfully transferred the BEC token to the two addresses resulted in the massive BEC being sold in the market"
+  when: 1524355200000
+  stolen_usd: 0
+  stolen_usd_str: "Unknown"
