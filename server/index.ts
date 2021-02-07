@@ -9,9 +9,8 @@ const configureApi = (app: Express) => {
 
   if (process.env.NODE_ENV === 'development') {
     app.use(cors());
+    app.use(express.static('public'));
   }
-
-  app.use(express.static('public'));
 
   // LND ( proxy -> hirishApi)
   app.use('/api/lnd', createProxyMiddleware({
@@ -26,6 +25,7 @@ const configureApi = (app: Express) => {
 
   app.use(express.json());
   app.use('/api', api);
+
 };
 
 export default configureApi;
