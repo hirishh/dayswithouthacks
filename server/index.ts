@@ -11,6 +11,8 @@ const configureApi = (app: Express) => {
     app.use(cors());
   }
 
+  app.use(express.static('public'));
+
   // LND ( proxy -> hirishApi)
   app.use('/api/lnd', createProxyMiddleware({
     target: 'http://localhost:3080',

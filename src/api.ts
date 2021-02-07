@@ -2,12 +2,15 @@ import axios, { Method, AxiosRequestConfig } from 'axios';
 import _ from 'lodash';
 import EventSource from 'eventsource';
 
-const port = process.env.PORT || 3356;
-let baseUrl = `http://localhost:${port}`;
-if (process.env.NODE_ENV === 'development') {
-  baseUrl = 'http://localhost:8080';
+const { hostname } = window.location;
+const port = process.env.VUE_APP_SRV_PORT || 3000;
+
+let baseUrl = `http://${hostname}:${port}`;
+let urlApi = `http://${hostname}:${port}/api`;
+if (process.env.NODE_ENV === 'production') {
+  baseUrl = '/';
+  urlApi = '/api';
 }
-const urlApi = `http://localhost:${port}/api`;
 
 const clientBase = axios.create({
   baseURL: baseUrl,
