@@ -2,11 +2,12 @@ import axios, { Method, AxiosRequestConfig } from 'axios';
 import _ from 'lodash';
 import EventSource from 'eventsource';
 
-let baseUrl = 'http://localhost:3000';
+const port = process.env.PORT || 3356;
+let baseUrl = `http://localhost:${port}`;
 if (process.env.NODE_ENV === 'development') {
   baseUrl = 'http://localhost:8080';
 }
-const urlApi = 'http://localhost:3000/api';
+const urlApi = `http://localhost:${port}/api`;
 
 const clientBase = axios.create({
   baseURL: baseUrl,

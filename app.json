@@ -9,6 +9,7 @@
     "max_restarts"      : 10,
     "exec_mode"         : "fork_mode",
     "env"               : {
+      "PORT": 3356,
       "DEBUG": "srv:*",
       "DEBUG_COLORS": true,
       "TELEGRAM_BOT_TOKEN": "<bot token>",
