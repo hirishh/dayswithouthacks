@@ -46,7 +46,7 @@ export default class Hacks extends Vue {
     separator: ',',
     decimal: '.',
     prefix: '$ ',
-    suffix: ' Stolen',
+    suffix: ' Stolen on Ethereum',
     duration: 10,
   }
 

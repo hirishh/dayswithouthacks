@@ -230,10 +230,11 @@ export default class DonateModal extends Vue {
   }
 
   public async sendTelegramNotification() {
-    const textMessage = 'Donation for DaysWithoutHacks.LOL\n'
-      + `Satoshis: ${this.value}\n`
-      + `Memo: ${this.memo}\n`;
-    await api.sendTelegramMessage(textMessage);
+    const data = {
+      value: this.value || 0,
+      memo: this.memo,
+    };
+    await api.sendDonationNotification(data);
   }
 }
 </script>

@@ -39,6 +39,18 @@ const executeApi = (
   return clientApi(config).then((req: { data: {} }) => req.data);
 };
 
+export interface ContactMessageData {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
+
+export interface DonationMessageData {
+  value: number;
+  memo: string;
+}
+
 export default {
   async getEthArticles() {
     return executeBase('GET', '/eth.yaml');
@@ -50,8 +62,12 @@ export default {
   /**
    * Telegram API
    */
-  async sendTelegramMessage(message: string) {
-    return executeApi('POST', '/contact', { message });
+  async sendContactNotification(data: ContactMessageData) {
+    return executeApi('POST', '/contact', data);
+  },
+
+  async sendDonationNotification(data: DonationMessageData) {
+    return executeApi('POST', '/donation', data);
   },
 
   /**

@@ -95,11 +95,13 @@ export default class ContactModal extends Vue {
   }
 
   public async submit() {
-    const textMessage = `Name: ${this.name}\n`
-      + `Email: ${this.email}\n`
-      + `Subject: ${this.subject}\n`
-      + `----------------\n${this.message}\n----------------`;
-    const res = await api.sendTelegramMessage(textMessage);
+    const data = {
+      name: this.name,
+      email: this.email,
+      subject: this.subject,
+      message: this.message,
+    };
+    const res = await api.sendContactNotification(data);
     if (res) {
       // Alarm ok
       this.showSuccess = true;
