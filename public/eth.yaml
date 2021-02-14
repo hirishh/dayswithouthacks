@@ -1,4 +1,15 @@
 ---
+- title: "Iron Bank CREAM"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/alpha-homora-loses-37-million-following-iron-bank-exploit
+    - text: Theblockcrypto
+      link: https://www.theblockcrypto.com/linked/94809/alpha-homora-exploited-for-37-5m
+  description: "The exploit involved the use of CREAM Finance's Iron Bank service, which gives out uncollateralized loans to trusted smart contracts."
+  when: 1613174400000 # 2021-02-13
+  stolen_usd: 37500000
+  stolen_usd_str: "37.5 Million"
+
 - title: "Yearn Finance"
   urls:
     - text: Coindesk
