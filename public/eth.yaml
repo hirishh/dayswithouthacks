@@ -1,4 +1,15 @@
 ---
+- title: "Furucombo COMBO"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/transaction-batching-protocol-furucombo-suffers-14-million-evil-contract-hack
+    - text: CryptoSlate
+      link: https://cryptoslate.com/latest-ethereum-defi-exploit-sees-14-million-stolen-from-furucombo/
+  description: "An attacker made Furuсombo think that Aave V2 has a new implementation. Because of this, all interactions with Aave V2 allowed transfers approved tokens to an arbitrary address."
+  when: 1614384000000 # 2021-02-27
+  stolen_usd: 14000000
+  stolen_usd_str: "14 Million"
+  
 - title: "Iron Bank CREAM"
   urls:
     - text: Cointelegraph
