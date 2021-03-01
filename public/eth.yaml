@@ -8,7 +8,7 @@
   description: "An attacker made Furuсombo think that Aave V2 has a new implementation. Because of this, all interactions with Aave V2 allowed transfers approved tokens to an arbitrary address."
   when: 1614384000000 # 2021-02-27
   stolen_usd: 14000000
-  stolen_usd_str: "14 Million"
+  stolen_usd_str: "$14 Million"
   
 - title: "Iron Bank CREAM"
   urls:
@@ -19,7 +19,7 @@
   description: "The exploit involved the use of CREAM Finance's Iron Bank service, which gives out uncollateralized loans to trusted smart contracts."
   when: 1613174400000 # 2021-02-13
   stolen_usd: 37500000
-  stolen_usd_str: "37.5 Million"
+  stolen_usd_str: "$37.5 Million"
 
 - title: "Yearn Finance"
   urls:
@@ -30,7 +30,7 @@
   description: "DeFi protocol Yearn Finance has reported that its DAI vault was exploited by a hacker."
   when: 1612483200000 # 2021-02-05
   stolen_usd: 11000000
-  stolen_usd_str: "11 Million"
+  stolen_usd_str: "$11 Million"
 
 - title: "Cover Protocol"
   urls:
