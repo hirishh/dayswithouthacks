@@ -2,7 +2,7 @@
   v-row(dense).d-flex.justify-center
     v-col(v-if='years > 0')
       Tracker(property='Years' v-model="years")
-    v-col(v-if='days > 0')
+    v-col
       Tracker(property='Days' v-model="days")
     v-col
       Tracker(property='Hours' v-model="hours" :zerofill="true")
