@@ -1,4 +1,13 @@
 ---
+- title: "Paid Network PAID"
+  urls:
+    - text: Etherscan TX
+      link: https://etherscan.io/tx/0x4bb10927ea7afc2336033574b74ebd6f73ef35ac0db1bb96229627c9d77555a0
+  description: "PAID got exploidet. Someone printed 51 Million PAID and dumped on the market. Hacker presumably got 4M USD."
+  when: 1614898800000 # 2021-03-05
+  stolen_usd: 4000000
+  stolen_usd_str: "$4 Million"
+
 - title: "Furucombo COMBO"
   urls:
     - text: Cointelegraph
