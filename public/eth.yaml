@@ -1,12 +1,14 @@
 ---
 - title: "Paid Network PAID"
   urls:
-    - text: Etherscan TX
-      link: https://etherscan.io/tx/0x4bb10927ea7afc2336033574b74ebd6f73ef35ac0db1bb96229627c9d77555a0
-  description: "Someone exploited PAID contract, printed 51 Million PAID and dumped on the market. Hacker presumably got 4M USD."
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/paid-network-exploiter-nets-3-million-in-infinite-mint-attack
+    - text: Coindesk
+      link: https://www.coindesk.com/paid-network-exploit-mints-attacker-60m-tokens-report
+  description: "Someone exploited PAID contract, printed 51 Million PAID and dumped on the market. Hacker presumably got 3.5M USD."
   when: 1614963829000 # 2021-03-05 - Fri Mar 05 2021 17:03:49 GMT+0000
-  stolen_usd: 4000000
-  stolen_usd_str: "$4 Million"
+  stolen_usd: 3500000
+  stolen_usd_str: "$3.5 Million"
 
 - title: "Furucombo COMBO"
   urls:
