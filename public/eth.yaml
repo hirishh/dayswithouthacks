@@ -1,4 +1,15 @@
 ---
+- title: "DODO"
+  urls:
+    - text: Zephyrnet.com
+      link: https://zephyrnet.com/defi-hacks-continue-decentralized-exchange-dodo-exploited-for-up-to-3-8m-7/
+    - text: Decrypt.co
+      link: https://decrypt.co/60712/defi-protocol-dodo-hacked-for-3-8-million
+  description: "The hacks and exploits on DeFi projects continue, and the latest victim to fall is the decentralized exchange platform – DODO. The attack targeted several V2 Crowdpools."
+  when: 1615296610000 # 2021-03-09 - Tue Mar 09 2021 13:30:10 GMT+0000
+  stolen_usd: 3800000
+  stolen_usd_str: "$3.8 Million"
+
 - title: "Paid Network PAID"
   urls:
     - text: Cointelegraph
