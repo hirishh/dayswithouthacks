@@ -1,4 +1,15 @@
 ---
+- title: "RARI"
+  urls:
+    - text: Cointelegraph
+      link: https://cointelegraph.com/news/rari-capital-falls-victim-to-11-million-exploit
+    - text: Coindesk
+      link: https://www.coindesk.com/rari-capital-reports-exploit-in-eth-pool
+  description: "Rari Capital announced there was an exploit in the Rari Capital ETH Pool related to its Alpha Finance Lab integration."
+  when: 1620470989 # 2021-05-08 - Sat May 08 2021 10:49:49 GMT+0000
+  stolen_usd: 11000000
+  stolen_usd_str: "$11 Million"
+  
 - title: "DODO"
   urls:
     - text: Zephyrnet.com
