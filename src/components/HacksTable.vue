@@ -24,9 +24,9 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import { Article, Header, StateRoot } from '@/store';
 import { mapState } from 'vuex';
 import { DateTime } from 'luxon';
+import { Article, Header, StateRoot } from '@/store';
 
 @Component({
   computed: {
