@@ -1,4 +1,174 @@
 ---
+- title: "MISO (Sushiswap)"
+  urls:
+    - text: Cryptopotato
+      link: https://cryptopotato.com/another-defi-hack-3m-in-eth-stolen-from-sushiswaps-token-platform/
+  description: "The protocol’s token platform MISO became the victim of a supply chain attack."
+  when: 1631829600000 # Thu Sep 16 2021 22:00:00 GMT+0000
+  stolen_usd: 3000000
+  stolen_usd_str: "$3 Million"
+
+- title: "DAO Maker"
+  urls:
+  description: "There is a loophole in the distribution system of SHO participants: init is not initialized protection, the attacker initializes the key parameters of init, and changes the owner at the same time, and then steals the target token through emergencyExit and exchanges it into DAI, attacking The final profit of nearly 4 million U.S. dollars."
+  when: 1630706400000 # Fri Sep 03 2021 22:00:00 GMT+0000
+  stolen_usd: 4000000
+  stolen_usd_str: "$4 Million"
+
+- title: "Cream Finance"
+  urls:
+  description: "A flash loan attack occurred in Cream Finance, a mortgage lending platform. In its post-mortem analysis report of the flash loan attack, it stated that a total of 460 million AMP tokens and 2804 ETH (worth approximately US$34 million at the time) were stolen due to the omission."
+  when: 1630274400000 # Sun Aug 29 2021 22:00:00 GMT+0000
+  stolen_usd: 34000000
+  stolen_usd_str: "$34 Million"
+  
+- title: "xToken"
+  urls:
+  description: "The DeFi pledge and liquidity strategy platform xToken, which suffered a lightning loan attack, released an analysis report on the vulnerability of the xSNX contract."
+  when: 1630188000000 # Sat Aug 28 2021 22:00:00 GMT+0000
+  stolen_usd: 4500000
+  stolen_usd_str: "$4.5 Million"
+
+- title: "Punk Protocol"
+  urls:
+  description: "The Punk Protocol team stated that the attacker found a critical loophole in the investment strategy and extracted more than 8.9 million U.S. dollars of three stable currency assets (USDC, USDT, DAI) from the Forge-CompoundModel module, but a white hat hacker noticed The attacker's intent was reached, so a transaction was executed, which was able to recover $4.95 million."
+  when: 1628632800000 # Tue Aug 10 2021 22:00:00 GMT+0000
+  stolen_usd: 3950000
+  stolen_usd_str: "$4 Million"
+  
+- title: "Poly Network"
+  urls:
+  description: "Poly Network was attacked, and a total of more than 620 million US dollars were transferred to 3 addresses even if the hackers have now returned tokens worth 342 million U.S. dollars."
+  when: 1628546400000 # Mon Aug 09 2021 22:00:00 GMT+0000
+  stolen_usd: 620000000
+  stolen_usd_str: "$620 Million"
+
+- title: "Popsicle Finance"
+  urls:
+  description: "Popsicle Finance, a multi-chain revenue optimization platform, was attacked. The core of this vulnerability is that the same PLP certificate can bring benefits to multiple holders at the same time node due to the defect in the reward update record."
+  when: 1628028000000 # Tue Aug 03 2021 22:00:00 GMT+0000
+  stolen_usd: 20000000
+  stolen_usd_str: "$20 Million"
+
+- title: "THORChain"
+  urls:
+  description: "THORChain (RUNE), a decentralized cross-chain transaction protocol, said it was attacked again, and many ERC20 tokens including XRUNE were affected."
+  when: 1626991200000 # Thu Jul 22 2021 22:00:00 GMT+0000
+  stolen_usd: 8000000
+  stolen_usd_str: "$8 Million"
+  
+- title: "Sanshu Inu"
+  urls:
+  description: "Using the mechanism of deflation token KEANU to attack the reward vulnerabilities in the Memestake contract deployed by Sanshu Inu, the attacker finally made a profit of about 56 ETH."
+  when: 1626818400000 # Tue Jul 20 2021 22:00:00 GMT+0000
+  stolen_usd: 170000
+  stolen_usd_str: "$0.17 Million"
+
+- title: "Array Finance"
+  urls:
+  description: "The DeFi project Array Finance was attacked by a lightning loan. The attacker used Array Finance's pricing mechanism to rely on aBPT's totalSupply to attack Array Finance."
+  when: 1626645600000 # Sun Jul 18 2021 22:00:00 GMT+0000
+  stolen_usd: 515000
+  stolen_usd_str: "$0.52 Million"
+
+- title: "THORChain"
+  urls:
+  description: "The decentralized cross-chain transaction protocol THORChain (RUNE) updated the attack situation, claiming that the amount of lost assets was about 4000 ETH."
+  when: 1626386400000 # Thu Jul 15 2021 22:00:00 GMT+0000
+  stolen_usd: 7600000
+  stolen_usd_str: "$7.6 Million"
+  
+- title: "DeFiPie"
+  urls:
+  description: "DeFiPie (PIE), the lending protocol on the Ethereum and Binance smart chains, was hacked with Reentry Attack."
+  when: 1626127200000 # Mon Jul 12 2021 22:00:00 GMT+0000
+  stolen_usd: 125000
+  stolen_usd_str: "$0.13 Million"
+
+- title: "Anyswap"
+  urls:
+  description: "The cross-chain bridge project Anyswap issued an announcement stating that the newly launched V3 cross-chain liquidity pool was hacked in the early hours of yesterday, with a total loss of 2.39 million USDC and 5.5 million MIM."
+  when: 1626040800000 # Sun Jul 11 2021 22:00:00 GMT+0000
+  stolen_usd: 7870000
+  stolen_usd_str: "$7.9 Million"
+
+- title: "Chainswap"
+  urls:
+  description: "The cross-chain bridge Chainswap announced the details of the stolen incident on its official blog. A total of 20 project assets were stolen, with a total value of approximately US$4 million."
+  when: 1625954400000 # Sat Jul 10 2021 22:00:00 GMT+0000
+  stolen_usd: 4000000
+  stolen_usd_str: "$4 Million"
+  
+- title: "DAO ventures"
+  urls:
+  description: "According to official sources, the DeFi asset management platform DAO ventures was stolen 300,000 DVG tokens due to a loophole in the ChainSwap contract of the cross-chain asset bridge."
+  when: 1625954400000 # Sat Jul 10 2021 22:00:00 GMT+0000
+  stolen_usd: 40000
+  stolen_usd_str: "$0.04 Million"
+
+- title: "Umbrella Network"
+  urls:
+  description: "According to official sources, the DeFi oracle Umbrella Network was stolen over 3 million UMB tokens due to a loophole in the ChainSwap contract of the cross-chain asset bridge."
+  when: 1625954400000 # Sat Jul 10 2021 22:00:00 GMT+0000
+  stolen_usd: 500000
+  stolen_usd_str: "$0.5 Million"
+
+- title: "Haven Protocol"
+  urls:
+  description: "203,000 xUSD and 13.5 xBTC were minted in two attacks; on June 27, an unknown amount of XHV was minted due to a vulnerability in the conversion verification of xAsset; June 29 , The attacker exploited a vulnerability that allowed the minting of 9 million xUSD."
+  when: 1625263200000 # Fri Jul 02 2021 22:00:00 GMT+0000
+  stolen_usd: 8190000
+  stolen_usd_str: "$8.2 Million"
+  
+- title: "DEXTools"
+  urls:
+  description: "The DEX trading tool DEXTools (DEXT) tweeted that it was recently hacked and affected some DEXT holders. In this regard, the liquidity has been removed from Uniswap and Pancake"
+  when: 1625263200000 # Fri Jul 02 2021 22:00:00 GMT+0000
+  stolen_usd: 0
+  stolen_usd_str: "$0 Million"
+
+- title: "THORChain"
+  urls:
+  description: "THORChain, a decentralized cross-chain transaction protocol, tweeted that a malicious attack against THORChain was discovered. THORChain nodes have responded and isolated defenses."
+  when: 1624917600000 # Mon Jun 28 2021 22:00:00 GMT+0000
+  stolen_usd: 140000
+  stolen_usd_str: "$0.14 Million"
+
+- title: "Wild Credit"
+  urls:
+  description: "The DeFi protocol Wild Credit on Ethereum suffered a white hat attack, and the attacker has returned a total of $650,000."
+  when: 1624658400000 # Sat Jun 26 2021 22:00:00 GMT+0000
+  stolen_usd: 0
+  stolen_usd_str: "$0 Million"
+
+- title: "SharedStake"
+  urls:
+  description: "SharedStake token was minted before the official launch was due to the use of vulnerabilities in time-locked contracts. A team member had permission to view the vulnerability, he used the vulnerability to cast a value of about 50 on the main network four times on June 19 and 23."
+  when: 1624485600000 # Wed Jun 23 2021 22:00:00 GMT+0000
+  stolen_usd: 6530000
+  stolen_usd_str: "$0.5 Million"
+
+- title: "Alchemix"
+  urls:
+  description: "Alchemix released an alETH pool accident report stating that due to an error in the deployment of the alETH pool script, users have borrowed alETH at a 4:1 mortgage ratio but have no debt to be repaid, and the debt ceiling of nearly 2000 ETH has been released and new ones can be minted again."
+  when: 1623535200000 # Sat Jun 12 2021 22:00:00 GMT+0000
+  stolen_usd: 6530000
+  stolen_usd_str: "$6,53 Million"
+
+- title: "xToken"
+  urls:
+  description: "The DeFi pledge and liquidity strategy platform xToken was attacked, and the xBNTaBancor pool and the xSNXaBalancer pool were immediately exhausted, causing nearly $25 million in losses."
+  when: 1623535200000 # Sat Jun 12 2021 22:00:00 GMT+0000
+  stolen_usd: 7000000
+  stolen_usd_str: "$7 Million"
+
+- title: "FinNexus"
+  urls:
+  description: "The token FNX of the on-chain option agreement FinNexus has been minted, transferred or sold in a large amount in a short period of time, involving more than 300 million FNX tokens (approximately US$7 million) in BSC and Ethereum."
+  when: 1621202400000 # Sun May 16 2021 22:00:00 GMT+0000
+  stolen_usd: 7000000
+  stolen_usd_str: "$7 Million"
+
 - title: "RARI"
   urls:
     - text: Cointelegraph
@@ -6,7 +176,7 @@
     - text: Coindesk
       link: https://www.coindesk.com/rari-capital-reports-exploit-in-eth-pool
   description: "Rari Capital announced there was an exploit in the Rari Capital ETH Pool related to its Alpha Finance Lab integration."
-  when: 1620470989000 # 2021-05-08 - Sat May 08 2021 10:49:49 GMT+0000
+  when: 1620470989000 # Sat May 08 2021 10:49:49 GMT+0000
   stolen_usd: 11000000
   stolen_usd_str: "$11 Million"
   
@@ -17,7 +187,7 @@
     - text: Decrypt.co
       link: https://decrypt.co/60712/defi-protocol-dodo-hacked-for-3-8-million
   description: "The hacks and exploits on DeFi projects continue, and the latest victim to fall is the decentralized exchange platform – DODO. The attack targeted several V2 Crowdpools."
-  when: 1615296610000 # 2021-03-09 - Tue Mar 09 2021 13:30:10 GMT+0000
+  when: 1615296610000 # Tue Mar 09 2021 13:30:10 GMT+0000
   stolen_usd: 3800000
   stolen_usd_str: "$3.8 Million"
 
@@ -28,7 +198,7 @@
     - text: Coindesk
       link: https://www.coindesk.com/paid-network-exploit-mints-attacker-60m-tokens-report
   description: "Someone exploited PAID contract, printed 51 Million PAID and dumped on the market. Hacker presumably got 3.5M USD."
-  when: 1614963829000 # 2021-03-05 - Fri Mar 05 2021 17:03:49 GMT+0000
+  when: 1614963829000 # Fri Mar 05 2021 17:03:49 GMT+0000
   stolen_usd: 3500000
   stolen_usd_str: "$3.5 Million"
 
