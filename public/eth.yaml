@@ -1,4 +1,13 @@
 ---
+- title: "Compound"
+  urls:
+    - text: TheBlockCrypto
+      link: https://www.theblockcrypto.com/linked/119086/compound-bug-comp-risk-misreward
+  description: "A new upgrade to the Compound Finance protocol has contained a bug that leaves some users with unusual amounts of COMP token as rewards to be claimed."
+  when: 1633066979000 # Thu Sep 16 2021 22:00:00 GMT+0000
+  stolen_usd: 80000000
+  stolen_usd_str: "$80 Million"
+
 - title: "MISO (Sushiswap)"
   urls:
     - text: Cryptopotato
