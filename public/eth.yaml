@@ -1,4 +1,13 @@
 ---
+- title: "CREAM"
+  urls:
+    - text: CoinDesk
+      link: https://www.coindesk.com/business/2021/10/27/cream-finance-exploited-in-flash-loan-attack-worth-over-100m/
+  description: "An attacker has gained over $130 million in an flash loan attack that appears to have drained CREAM’s coffers."
+  when: 1635340777000 # Wed Oct 27 2021 13:19:37 GMT+0000
+  stolen_usd: 130000000
+  stolen_usd_str: "$130 Million"
+  
 - title: "Compound"
   urls:
     - text: TheBlockCrypto
