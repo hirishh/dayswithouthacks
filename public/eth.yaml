@@ -1,4 +1,22 @@
 ---
+- title: "BadgerDAO"
+  urls:
+    - text: CoinTelegraph
+      link: https://cointelegraph.com/news/defi-disasters-31m-drained-from-monox-and-badgerdao-losses-top-120m
+  description: "BadgerDAO (BADGER) suffered a front-end attack that was discovered on Dec. 2 with estimates of Badger’s losses hitting more than $120 million."
+  when: 1638404961000 # Thursday, December 2, 2021 12:29:21 AM
+  stolen_usd: 120000000
+  stolen_usd_str: "$120 Million"
+    
+  - title: "MonoX"
+  urls:
+    - text: CoinTelegraph
+      link: https://cointelegraph.com/news/defi-disasters-31m-drained-from-monox-and-badgerdao-losses-top-120m
+  description: "Multi-chain decentralized exchange (DEX) MonoX (MONO) suffered a cyber attack on Nov. 30 leading to about $31 million in losses."
+  when: 1638232161000 # Tuesday, November 30, 2021 12:29:21 AM
+  stolen_usd: 31000000
+  stolen_usd_str: "$31 Million"
+
 - title: "CREAM"
   urls:
     - text: CoinDesk
