@@ -4,7 +4,7 @@
     - text: CoinTelegraph
       link: https://cointelegraph.com/news/defi-disasters-31m-drained-from-monox-and-badgerdao-losses-top-120m
   description: "BadgerDAO (BADGER) suffered a front-end attack that was discovered on Dec. 2 with estimates of Badger’s losses hitting more than $120 million."
-  when: 1638404961000 # Thursday, December 2, 2021 12:29:21 AM
+  when: 1638466161000 # Thursday, December 2, 2021 5:29:21 PM
   stolen_usd: 120000000
   stolen_usd_str: "$120 Million"
     
