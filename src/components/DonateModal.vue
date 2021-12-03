@@ -5,7 +5,7 @@
         span.mr-2 Donate with real money.
         v-icon(color="yellow darken-3") mdi-bitcoin
         span.mx-2 or
-        v-icon(color="yellow darken-3") mdi-flash-circle
+        v-icon(color="yellow darken-3") mdi-flash
     v-card
       v-card-title
         v-icon(large).mx-2 mdi-gift
