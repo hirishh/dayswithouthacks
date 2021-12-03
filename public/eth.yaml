@@ -8,7 +8,7 @@
   stolen_usd: 120000000
   stolen_usd_str: "$120 Million"
     
-  - title: "MonoX"
+- title: "MonoX"
   urls:
     - text: CoinTelegraph
       link: https://cointelegraph.com/news/defi-disasters-31m-drained-from-monox-and-badgerdao-losses-top-120m
