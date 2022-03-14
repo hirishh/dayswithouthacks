@@ -1,4 +1,13 @@
 ---
+- title: "CRP Multichain"
+  urls:
+    - text: CoinTelegraph
+      link: https://cointelegraph.com/news/multichain-under-fire-from-users-as-hacking-losses-grow-to-3m
+  description: "Hackers have continued to exploit a critical vulnerability in the cross-chain router protocol (CRP) Multichain that first appeared on Monday."
+  when: 1642708227000 # Thursday, January 20, 2022 7:50:27 PM
+  stolen_usd: 3000000
+  stolen_usd_str: "$3 Million"
+
 - title: "BadgerDAO"
   urls:
     - text: CoinTelegraph
