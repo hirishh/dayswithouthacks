@@ -1,4 +1,123 @@
 ---
+- title: "Fei Protocol"
+  urls:
+    - text: Twitter
+      link: https://twitter.com/feiprotocol/status/1520344430242254849
+  description: "Fei Protocol officially tweeted that it has noticed multiple exploits of Rari Capital’s Fuse pool, has identified the root cause and suspended all lending to mitigate further losses."
+  when: 1651361385000 # Saturday, April 30, 2022 11:29:45 PM
+  stolen_usd: 80340000
+  stolen_usd_str: "$80.34 Million"
+
+- title: "Saddle Finance"
+  urls:
+    - text: Twitter
+      link: https://twitter.com/saddlefinance/status/1520451021725741056
+  description: "DeFi protocol Saddle Finance was attacked, causing the protocol to lose more than $10 million."
+  when: 1651350585000 # Saturday, April 30, 2022 8:29:45 PM
+  stolen_usd: 10000000
+  stolen_usd_str: "$10 Million"
+
+- title: "Beanstalk"
+  urls:
+    - text: Twitter
+      link: https://twitter.com/BlockSecTeam/status/1515683983836979201
+  description: "The protocol loss caused by the flash loan attack."
+  when: 1650227385000 # Sunday, April 17, 2022 8:29:45 PM
+  stolen_usd: 182000000
+  stolen_usd_str: "$182 Million"
+
+- title: "Marvin Inu"
+  urls:
+  description: "Marvin Inu’s cross-chain bridge was hacked, and tokens worth 110 ETH were stolen and sold, causing a sharp drop in price."
+  when: 1649708985000 # Monday, April 11, 2022 8:29:45 PM
+  stolen_usd: 300000
+  stolen_usd_str: "$0.3 Million"
+
+- title: "BasketDAO"
+  urls:
+    - text: Twitter
+      link: https://twitter.com/BasketDAOOrg/status/1509009439315034115
+  description: "There is a vulnerability in BMIZapper, which caused users to lose about 1.2 million US dollars."
+  when: 1648672185000 # Wednesday, March 30, 2022 8:29:45 PM
+  stolen_usd: 1200000
+  stolen_usd_str: "$1.2 Million"
+
+- title: "Ronin Network"
+  urls:
+    - text: Ronin Substack
+      link: https://roninblockchain.substack.com/p/community-alert-ronin-validators?s=w
+  description: "Axie Infinity sidechain Ronin Network issued a community alert today. Ronin Network experienced a security breach. The attacker used the hacked private key to forge fake withdrawals, pulling funds out of the Ronin bridge in just two transactions."
+  when: 1648412985000 # Sunday, March 27, 2022 8:29:45 PM
+  stolen_usd: 610000000
+  stolen_usd_str: "$610 Million"
+
+- title: "Revest Finance"
+  urls:
+    - text: CoinYuppie
+      link: https://coinyuppie.com/erc1155s-reentrancy-attack-appears-again-a-brief-analysis-of-revest-finance-being-attacked/
+  description: "DeFi protocol Revest Finance has been hacked with reentrancy attack."
+  when: 1648412985000 # Sunday, March 27, 2022 8:29:45 PM
+  stolen_usd: 120000
+  stolen_usd_str: "$0.12 Million"
+
+- title: "Li.finance"
+  urls:
+    - text: CryptoPotato
+      link: https://cryptopotato.com/hacker-drained-600k-worth-of-crypto-from-li-finance/
+  description: "According to official reports, attackers exploited Li.finance’s smart contracts and managed to steal around $600,000. Attackers took various tokens from users’ wallets."
+  when: 1647808185000 # Sunday, March 20, 2022 8:29:45 PM
+  stolen_usd: 600000
+  stolen_usd_str: "$0.6 Million"
+
+- title: "Umbrella Network"
+  urls:
+    - text: Twitter
+      link: https://twitter.com/UmbNetwork/status/1505529412695076868
+    - text: Medium
+      link: https://medium.com/uno-re/umbrella-network-hacked-700k-lost-97285b69e8c7
+  description: "DeFi oracle Umbrella Network’s Ethereum and BNB Chain (formerly BSC) reward pools were hacked, resulting in the hackers earning around $700,000. The hacker was able to succeed because of an unchecked vulnerability in withdraw()."
+  when: 1647376185000 # Tuesday, March 15, 2022 8:29:45 PM
+  stolen_usd: 700000
+  stolen_usd_str: "$0.7 Million"
+
+- title: "Deus Finance"
+  urls:
+    - text: CryptoPotato
+      link: https://cryptopotato.com/3-million-in-dai-and-eth-stolen-from-deus-finance-in-the-latest-defi-hack/
+  description: "DeFi protocol Deus Finance was attacked by a flash loan, and hackers manipulated the price of the oracle machine and stole about $3 million."
+  when: 1647376185000 # Tuesday, March 15, 2022 8:29:45 PM
+  stolen_usd: 3000000
+  stolen_usd_str: "$3 Million"
+  
+  - title: "RigoBlock"
+  urls:
+    - text: Twitter
+      link: https://twitter.com/RigoBlock/status/1494351180713050116
+  description: "RigoBlock has been hacked. All tokens in Dragos except ETH and USDT are at risk due to protocol vulnerabilities being exploited. The hacker, Whitehat, has returned funds to the affected RigoBlock pool, leaving only 10% of the bug bounty reward."
+  when: 1645216185000 # Friday, February 18, 2022 8:29:45 PM
+  stolen_usd: 500000
+  stolen_usd_str: "$0.5 Million"
+  
+  - title: "Build Finance"
+  urls:
+    - text: CryptoBriefing
+      link: https://cryptobriefing.com/build-finance-dao-suffers-governance-takeover-attack/
+  description: "The venture capital DAO organization Build Finance tweeted that the project suffered a malicious governance takeover."
+  when: 1644956985000 # Tuesday, February 15, 2022 8:29:45 PM
+  stolen_usd: 500000
+  stolen_usd_str: "$0.5 Million"
+  
+  - title: "Meter.io"
+  urls:
+    - text: CoinTelegraph
+      link: https://cointelegraph.com/news/latest-defi-bridge-exploit-results-in-4-4m-losses-for-meter
+    - text: HalBorn
+      link: https://halborn.com/explained-the-meter-io-hack-february-2022
+  description: "The hacker was able to exploit a vulnerability in the deposit function, which allowed them to fake BNB or ETH transfers."
+  when: 1644179385000 # Sunday, February 6, 2022 8:29:45 PM
+  stolen_usd: 4300000
+  stolen_usd_str: "$4.3 Million"
+
 - title: "CRP Multichain"
   urls:
     - text: CoinTelegraph
