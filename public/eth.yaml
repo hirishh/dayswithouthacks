@@ -88,8 +88,8 @@
   when: 1647376185000 # Tuesday, March 15, 2022 8:29:45 PM
   stolen_usd: 3000000
   stolen_usd_str: "$3 Million"
-  
-  - title: "RigoBlock"
+
+- title: "RigoBlock"
   urls:
     - text: Twitter
       link: https://twitter.com/RigoBlock/status/1494351180713050116
@@ -97,8 +97,8 @@
   when: 1645216185000 # Friday, February 18, 2022 8:29:45 PM
   stolen_usd: 500000
   stolen_usd_str: "$0.5 Million"
-  
-  - title: "Build Finance"
+
+- title: "Build Finance"
   urls:
     - text: CryptoBriefing
       link: https://cryptobriefing.com/build-finance-dao-suffers-governance-takeover-attack/
@@ -106,8 +106,8 @@
   when: 1644956985000 # Tuesday, February 15, 2022 8:29:45 PM
   stolen_usd: 500000
   stolen_usd_str: "$0.5 Million"
-  
-  - title: "Meter.io"
+
+- title: "Meter.io"
   urls:
     - text: CoinTelegraph
       link: https://cointelegraph.com/news/latest-defi-bridge-exploit-results-in-4-4m-losses-for-meter
