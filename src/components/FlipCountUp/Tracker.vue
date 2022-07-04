@@ -1,10 +1,10 @@
 <template lang="pug">
-  v-scroll-y-transition(mode='in-out' :hide-on-leave='true')
-    v-card.mx-auto.justify-center(v-if="show" width='100%')
-      v-card-text
-        .display-4 {{ displayValue() }}
-      v-card-text
-        .display-1 {{ property }}
+v-scroll-y-transition(mode='in-out' :hide-on-leave='true')
+  v-card.mx-auto.justify-center(v-if="show" width='100%')
+    v-card-text
+      .display-4 {{ displayValue() }}
+    v-card-text
+      .display-1 {{ property }}
 </template>
 
 <script lang="ts">

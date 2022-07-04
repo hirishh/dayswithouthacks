@@ -1,14 +1,14 @@
 <template lang="pug">
-  mixin Copyright
-    v-icon(left='').mb-1 mdi-copyright
-    span
-      | {{ new Date().getFullYear() }} &mdash;
-      |
-      strong DaysWithoutHacks.LOL
+mixin Copyright
+  v-icon(left='').mb-1 mdi-copyright
+  span
+    | {{ new Date().getFullYear() }} &mdash;
+    |
+    strong DaysWithoutHacks.LOL
 
-  v-footer#footer(app padless fixed outlined absolute)
-    v-col(cols='12').text-left
-      +Copyright()
+v-footer#footer(app padless fixed outlined absolute)
+  v-col(cols='12').text-left
+    +Copyright()
 
 </template>
 

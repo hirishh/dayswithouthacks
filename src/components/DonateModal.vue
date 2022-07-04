@@ -1,93 +1,93 @@
 <template lang="pug">
-  v-dialog(v-model='dialog' max-width='80%' eager)
-    template(v-slot:activator='{ on, attrs }')
-      v-btn(large text v-bind='attrs' v-on='on')
-        span.mr-2 Donate with real money.
-        v-icon(color="yellow darken-3") mdi-bitcoin
-        span.mx-2 or
-        v-icon(color="yellow darken-3") mdi-flash
-    v-card
-      v-card-title
-        v-icon(large).mx-2 mdi-gift
-        span.headline Thank you.
-      v-card-text
-        // Notifications
-        notifications(group="clipboard" position="bottom right" :duration="1500" width="500px")
-        v-container.contact
-          v-row(justify="center")
-            v-col(cols='12' :md="6")
+v-dialog(v-model='dialog' max-width='80%' eager)
+  template(v-slot:activator='{ on, attrs }')
+    v-btn(large text v-bind='attrs' v-on='on')
+      span.mr-2 Donate with real money.
+      v-icon(color="yellow darken-3") mdi-bitcoin
+      span.mx-2 or
+      v-icon(color="yellow darken-3") mdi-flash
+  v-card
+    v-card-title
+      v-icon(large).mx-2 mdi-gift
+      span.headline Thank you.
+    v-card-text
+      // Notifications
+      notifications(group="clipboard" position="bottom right" :duration="1500" width="500px")
+      v-container.contact
+        v-row(justify="center")
+          v-col(cols='12' :md="6")
 
-              h1.my-5 On Chain Transaction
-              v-card(width="100%")
-                v-card-text
-                  code.py-2
-                    a.btc-addr(:href='`bitcoin:${donationAddress}`')
-                      | {{ donationAddress }}
-                  .mt-4
-                    v-btn(
-                      v-clipboard:copy="donationAddress"
+            h1.my-5 On Chain Transaction
+            v-card(width="100%")
+              v-card-text
+                code.py-2
+                  a.btc-addr(:href='`bitcoin:${donationAddress}`')
+                    | {{ donationAddress }}
+                .mt-4
+                  v-btn(
+                    v-clipboard:copy="donationAddress"
+                    v-clipboard:success="onCopy"
+                    v-clipboard:error="onCopyError")
+                    v-icon mdi-content-copy
+                    | Copy
+            v-btn.my-4(@click="expandQR = !expandQR") Show QR Code
+            v-expand-transition(mode="out-in")
+              v-row(v-show="expandQR" justify="center")
+                v-col(cols='12' :md="6")
+                  v-card(width="100%")
+                    v-img(src="@/assets/btc-qrcode.png" alt="Bitcoin Donation QRCode"
+                      contain='' width="100%" eager)
+
+        v-divider.my-6
+
+        v-row(justify="center")
+          v-col(cols='12' :md="10")
+            h1.my-5 Lightning Network Transaction
+
+            v-row.mt-5(justify="center")
+              v-alert(v-model="showSuccess" prominent outlined type='success' text border="left"
+                transition="fab-transition")
+                | Donation Received. Thank you for your support!
+              v-alert(v-model="showError" prominent outlined type="warning" text border="left"
+                transition="fade-transition")
+                | An error occurred while checking the invoice. Please try again later.
+
+            template(v-if="!showSuccess && !showError")
+              v-expand-transition(mode="out-in")
+                v-row(v-show="paymentRequest === null" justify="center")
+                  v-col(cols='12' :md="6")
+                    v-form(v-model='valid' ref="donateForm")
+                      v-text-field.my-2(v-model='value'
+                        label='Satoshis' :rules='valueRules' required)
+                      v-text-field.my-2(v-model='memo' :rules='memoRules'
+                        label='Invoice Memo. Leave us a message!')
+              v-expand-transition(mode="out-in")
+                v-row(v-if="paymentRequest !== null" justify="center")
+                  v-col(cols='12' :md="6")
+                    vue-qrcode.p-5(:value="paymentRequest")
+                  v-col(cols='12' :md="6").text-left
+                    pre.pre-word-wrap.rounded-lg
+                      | {{ paymentRequest }}
+                    v-btn.my-4.mx-4(
+                      v-clipboard:copy="paymentRequest"
                       v-clipboard:success="onCopy"
                       v-clipboard:error="onCopyError")
-                      v-icon mdi-content-copy
-                      | Copy
-              v-btn.my-4(@click="expandQR = !expandQR") Show QR Code
-              v-expand-transition(mode="out-in")
-                v-row(v-show="expandQR" justify="center")
-                  v-col(cols='12' :md="6")
-                    v-card(width="100%")
-                      v-img(src="@/assets/btc-qrcode.png" alt="Bitcoin Donation QRCode"
-                        contain='' width="100%" eager)
+                        v-icon.mr-2 mdi-content-copy
+                        | Copy
+                    v-btn(:href='`lightning:${paymentRequest}`').my-4.mx-4.float-right
+                      v-icon.mr-2 mdi-open-in-new
+                      | Open in Wallet
 
-          v-divider.my-6
+            v-btn.my-4.mr-5(color='error' @click='reset')
+              | Reset Donation
+            v-btn.my-4(:disabled='!valid || paymentRequest !== null'
+              color='success' @click="generateInvoice")
+              | Generate Invoice
 
-          v-row(justify="center")
-            v-col(cols='12' :md="10")
-              h1.my-5 Lightning Network Transaction
-
-              v-row.mt-5(justify="center")
-                v-alert(v-model="showSuccess" prominent outlined type='success' text border="left"
-                  transition="fab-transition")
-                  | Donation Received. Thank you for your support!
-                v-alert(v-model="showError" prominent outlined type="warning" text border="left"
-                  transition="fade-transition")
-                  | An error occurred while checking the invoice. Please try again later.
-
-              template(v-if="!showSuccess && !showError")
-                v-expand-transition(mode="out-in")
-                  v-row(v-show="paymentRequest === null" justify="center")
-                    v-col(cols='12' :md="6")
-                      v-form(v-model='valid' ref="donateForm")
-                        v-text-field.my-2(v-model='value'
-                          label='Satoshis' :rules='valueRules' required)
-                        v-text-field.my-2(v-model='memo' :rules='memoRules'
-                          label='Invoice Memo. Leave us a message!')
-                v-expand-transition(mode="out-in")
-                  v-row(v-if="paymentRequest !== null" justify="center")
-                    v-col(cols='12' :md="6")
-                      vue-qrcode.p-5(:value="paymentRequest")
-                    v-col(cols='12' :md="6").text-left
-                      pre.pre-word-wrap.rounded-lg
-                        | {{ paymentRequest }}
-                      v-btn.my-4.mx-4(
-                        v-clipboard:copy="paymentRequest"
-                        v-clipboard:success="onCopy"
-                        v-clipboard:error="onCopyError")
-                          v-icon.mr-2 mdi-content-copy
-                          | Copy
-                      v-btn(:href='`lightning:${paymentRequest}`').my-4.mx-4.float-right
-                        v-icon.mr-2 mdi-open-in-new
-                        | Open in Wallet
-
-              v-btn.my-4.mr-5(color='error' @click='reset')
-                | Reset Donation
-              v-btn.my-4(:disabled='!valid || paymentRequest !== null'
-                color='success' @click="generateInvoice")
-                | Generate Invoice
-
-      v-card-actions
-        v-spacer
-        v-btn(color='blue darken-1' text='' @click='dialog = false')
-          | Close
+    v-card-actions
+      v-spacer
+      v-btn(color='blue darken-1' text='' @click='dialog = false')
+        | Close
 </template>
 
 <script lang="ts">

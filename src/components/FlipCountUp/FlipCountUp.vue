@@ -1,15 +1,15 @@
 <template lang="pug">
-  v-row(dense).d-flex.justify-center
-    v-col(v-if='years > 0')
-      Tracker(property='Years' v-model="years")
-    v-col
-      Tracker(property='Days' v-model="days")
-    v-col
-      Tracker(property='Hours' v-model="hours" :zerofill="true")
-    v-col
-      Tracker(property='Minutes' v-model="minutes" :zerofill="true")
-    v-col.hidden-sm-and-down
-      Tracker(property='Seconds' v-model="seconds" :zerofill="true")
+v-row(dense).d-flex.justify-center
+  v-col(v-if='years > 0')
+    Tracker(property='Years' v-model="years")
+  v-col
+    Tracker(property='Days' v-model="days")
+  v-col
+    Tracker(property='Hours' v-model="hours" :zerofill="true")
+  v-col
+    Tracker(property='Minutes' v-model="minutes" :zerofill="true")
+  v-col.hidden-sm-and-down
+    Tracker(property='Seconds' v-model="seconds" :zerofill="true")
 </template>
 
 <script lang="ts">

@@ -1,15 +1,14 @@
 <template lang='pug'>
-  v-app
+v-app
 
-    HeaderBar
+  HeaderBar
 
-    v-main
-      v-container(fluid)
-        v-scroll-x-transition(mode='out-in' :hide-on-leave='true')
-          router-view
+  v-main
+    v-container(fluid)
+      v-scroll-x-transition(mode='out-in' :hide-on-leave='true')
+        router-view
 
-    FooterBar
-
+  FooterBar
 </template>
 
 <script lang="ts">

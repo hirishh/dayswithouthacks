@@ -1,6 +1,6 @@
 <template lang="pug">
-  v-container(fluid).home
-    Hacks
+v-container(fluid).home
+  Hacks
 </template>
 
 <script lang="ts">

@@ -1,15 +1,15 @@
 <template lang="pug">
-  .ethereum
-    v-row.justify-center
-      v-col(cols='12' md="10")
-        FlipCountUp(:timestamp="getLatestTimestamp()")
-    v-row(v-if="ethUsdStolen > 0").justify-center
-      v-col(cols='12')
-        .iCountUp
-          ICountUp(:delay="100" :endVal="ethUsdStolen" :options="options")
-    v-row.justify-center
-      v-col(cols='12' xl="8")
-        HacksTable(:articles='eth' :headers='headers')
+.ethereum
+  v-row.justify-center
+    v-col(cols='12' md="10")
+      FlipCountUp(:timestamp="getLatestTimestamp()")
+  v-row(v-if="ethUsdStolen > 0").justify-center
+    v-col(cols='12')
+      .iCountUp
+        ICountUp(:delay="100" :endVal="ethUsdStolen" :options="options")
+  v-row.justify-center
+    v-col(cols='12' xl="8")
+      HacksTable(:articles='eth' :headers='headers')
 </template>
 
 <script lang="ts">
