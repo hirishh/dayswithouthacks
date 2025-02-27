@@ -6,8 +6,8 @@
   description: "On February 22, 2025, the attackers executed a familiar front-end spoofing attack, deceiving multisig signers into authorizing what they believed were legitimate transactions."
   attack_method: "Security Vulnerability"
   when: 1740250961000 # 2025-02-22
-  stolen_usd: 197600
-  stolen_usd_str: "$197,600"
+  stolen_usd: 1430000000
+  stolen_usd_str: "$1,43 Billions"
 
 - title: "UniLend"
   urls:
