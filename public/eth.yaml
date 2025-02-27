@@ -5,7 +5,7 @@
       link: "https://x.com/SlowMist_Team/status/1878651772375572573"
   description: "On January 13, 2025, the SlowMist MistEye security monitoring system detected an attack on UniLend, resulting in a loss of approximately $197K."
   attack_method: "Contract Vulnerability"
-  when: 1789238400000 # 2025-01-13
+  when: 1736728200000 # 2025-01-13
   stolen_usd: 197600
   stolen_usd_str: "$197,600"
 
@@ -15,7 +15,7 @@
       link: "https://etherscan.io/tx/0x6439d63cc57fb68a32ea8ffd8f02496e8abad67292be94904c0b47a4d14ce90d"
   description: "Sorra was suspected to have been attacked on ETH, resulting in an approximate loss of $43K."
   attack_method: "Contract Vulnerability"
-  when: 1788710400000 # 2025-01-04
+  when: 1735950600000 # 2025-01-04
   stolen_usd: 43000
   stolen_usd_str: "$43,000"
 
@@ -25,7 +25,7 @@
       link: "https://etherscan.io/tx/0xef34f4fdf03e403e3c94e96539354fb4fe0b79a5ec927eacc63bc04108dbf420"
   description: "LAURA was suspected to have been attacked on ETH, resulting in an approximate loss of $48.2K."
   attack_method: "Contract Vulnerability"
-  when: 1788460800000 # 2025-01-01
+  when: 1735691400000 # 2025-01-01
   stolen_usd: 48200
   stolen_usd_str: "$48,200"
 
@@ -35,7 +35,7 @@
       link: "https://x.com/FEGtoken/status/1873265905867866294"
   description: "The FEG project suffered an attack resulting in a loss of approximately $1 million. The incident appears to stem from a composability issue with the Wormhole cross-chain bridge."
   attack_method: "Security Vulnerability"
-  when: 1788211200000 # 2024-12-29
+  when: 1735432200000 # 2024-12-29
   stolen_usd: 1000000
   stolen_usd_str: "$1 Million"
 
@@ -45,7 +45,7 @@
       link: "https://www.odaily.news/newsflash/408096"
   description: "A series of exploiting transactions targeted the liquidity pool of the HarryPotterObamaSonic10Inu 2.0 token. The attacker profited approximately $243K and deposited the funds into Tornado."
   attack_method: "Price Manipulation"
-  when: 1787174400000 # 2024-12-18
+  when: 1734481800000 # 2024-12-18
   stolen_usd: 243000
   stolen_usd_str: "$243,000"
 
@@ -55,7 +55,7 @@
       link: "https://x.com/Vestra_DAO/status/1864677381459390781"
   description: "A hacker exploited a vulnerability in the locked staking contract, manipulating the reward mechanism and stealing 73,720,000 VSTR tokens. The stolen tokens were gradually sold on Uniswap, causing approximately $500,000 in ETH liquidity losses."
   attack_method: "Contract Vulnerability"
-  when: 1785955200000 # 2024-12-04
+  when: 1733272200000 # 2024-12-04
   stolen_usd: 500000
   stolen_usd_str: "$500,000"
 
@@ -65,7 +65,7 @@
       link: "https://x.com/Spectral_Labs/status/1863757146543763866"
   description: "Spectral tweeted that a vulnerability in bonding curve contracts on Syntax was exploited, removing approximately $250K in liquidity."
   attack_method: "Contract Vulnerability"
-  when: 1785696000000 # 2024-12-01
+  when: 1733013000000 # 2024-12-01
   stolen_usd: 250000
   stolen_usd_str: "$250,000"
 
@@ -75,7 +75,7 @@
       link: "https://etherscan.io/tx/0xec4e5e9b0bec380f8f6119756b9b13d6207c58bd2afbbcb876378d5baed73b9e"
   description: "The Sweepr Token (SWEEPR) on ETH was suspected to have been attacked, resulting in a loss of approximately $14K."
   attack_method: "Contract Vulnerability"
-  when: 1784745600000 # 2024-11-22
+  when: 1732235400000 # 2024-11-22
   stolen_usd: 14000
   stolen_usd_str: "$14,000"
 
@@ -85,7 +85,7 @@
       link: "https://x.com/SlowMist_Team/status/1856987988632457708"
   description: "The vETH token suffered an attack, resulting in approximately $450K in losses."
   attack_method: "Price Manipulation"
-  when: 1784140800000 # 2024-11-14
+  when: 1731544200000 # 2024-11-14
   stolen_usd: 450000
   stolen_usd_str: "$450,000"
 
@@ -95,7 +95,7 @@
       link: "https://etherscan.io/tx/0xd20b3b31a682322eb0698ecd67a6d8a040ccea653ba429ec73e3584fa176ff2b"
   description: "The Fire ($FIRE) token on Ethereum was exploited just 24 seconds after its launch, resulting in the theft of 9 ETH (approximately $24,000). The root cause was related to the token burn mechanism within the transfer() function."
   attack_method: "Contract Vulnerability"
-  when: 1727827200000 # 2024-10-01
+  when: 1727742600000 # 2024-10-01
   stolen_usd: 24000
   stolen_usd_str: "$24,000"
 
