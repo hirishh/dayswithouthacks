@@ -1,46 +1,1239 @@
 ---
+- title: "UniLend"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1878651772375572573"
+  description: "On January 13, 2025, the SlowMist MistEye security monitoring system detected an attack on UniLend, resulting in a loss of approximately $197K."
+  attack_method: "Contract Vulnerability"
+  when: 1789238400000 # 2025-01-13
+  stolen_usd: 197600
+  stolen_usd_str: "$197,600"
+
+- title: "Sorra"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0x6439d63cc57fb68a32ea8ffd8f02496e8abad67292be94904c0b47a4d14ce90d"
+  description: "Sorra was suspected to have been attacked on ETH, resulting in an approximate loss of $43K."
+  attack_method: "Contract Vulnerability"
+  when: 1788710400000 # 2025-01-04
+  stolen_usd: 43000
+  stolen_usd_str: "$43,000"
+
+- title: "LAURA"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0xef34f4fdf03e403e3c94e96539354fb4fe0b79a5ec927eacc63bc04108dbf420"
+  description: "LAURA was suspected to have been attacked on ETH, resulting in an approximate loss of $48.2K."
+  attack_method: "Contract Vulnerability"
+  when: 1788460800000 # 2025-01-01
+  stolen_usd: 48200
+  stolen_usd_str: "$48,200"
+
+- title: "FEG"
+  urls:
+    - text: "X"
+      link: "https://x.com/FEGtoken/status/1873265905867866294"
+  description: "The FEG project suffered an attack resulting in a loss of approximately $1 million. The incident appears to stem from a composability issue with the Wormhole cross-chain bridge."
+  attack_method: "Security Vulnerability"
+  when: 1788211200000 # 2024-12-29
+  stolen_usd: 1000000
+  stolen_usd_str: "$1 Million"
+
+- title: "HarryPotterObamaSonic10Inu"
+  urls:
+    - text: "Article"
+      link: "https://www.odaily.news/newsflash/408096"
+  description: "A series of exploiting transactions targeted the liquidity pool of the HarryPotterObamaSonic10Inu 2.0 token. The attacker profited approximately $243K and deposited the funds into Tornado."
+  attack_method: "Price Manipulation"
+  when: 1787174400000 # 2024-12-18
+  stolen_usd: 243000
+  stolen_usd_str: "$243,000"
+
+- title: "Vestra DAO"
+  urls:
+    - text: "X"
+      link: "https://x.com/Vestra_DAO/status/1864677381459390781"
+  description: "A hacker exploited a vulnerability in the locked staking contract, manipulating the reward mechanism and stealing 73,720,000 VSTR tokens. The stolen tokens were gradually sold on Uniswap, causing approximately $500,000 in ETH liquidity losses."
+  attack_method: "Contract Vulnerability"
+  when: 1785955200000 # 2024-12-04
+  stolen_usd: 500000
+  stolen_usd_str: "$500,000"
+
+- title: "Spectral"
+  urls:
+    - text: "X"
+      link: "https://x.com/Spectral_Labs/status/1863757146543763866"
+  description: "Spectral tweeted that a vulnerability in bonding curve contracts on Syntax was exploited, removing approximately $250K in liquidity."
+  attack_method: "Contract Vulnerability"
+  when: 1785696000000 # 2024-12-01
+  stolen_usd: 250000
+  stolen_usd_str: "$250,000"
+
+- title: "Sweepr Token (SWEEPR)"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0xec4e5e9b0bec380f8f6119756b9b13d6207c58bd2afbbcb876378d5baed73b9e"
+  description: "The Sweepr Token (SWEEPR) on ETH was suspected to have been attacked, resulting in a loss of approximately $14K."
+  attack_method: "Contract Vulnerability"
+  when: 1784745600000 # 2024-11-22
+  stolen_usd: 14000
+  stolen_usd_str: "$14,000"
+
+- title: "vETH"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1856987988632457708"
+  description: "The vETH token suffered an attack, resulting in approximately $450K in losses."
+  attack_method: "Price Manipulation"
+  when: 1784140800000 # 2024-11-14
+  stolen_usd: 450000
+  stolen_usd_str: "$450,000"
+
+- title: "Fire (FIRE)"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0xd20b3b31a682322eb0698ecd67a6d8a040ccea653ba429ec73e3584fa176ff2b"
+  description: "The Fire ($FIRE) token on Ethereum was exploited just 24 seconds after its launch, resulting in the theft of 9 ETH (approximately $24,000). The root cause was related to the token burn mechanism within the transfer() function."
+  attack_method: "Contract Vulnerability"
+  when: 1727827200000 # 2024-10-01
+  stolen_usd: 24000
+  stolen_usd_str: "$24,000"
+
+- title: "Onyx"
+  urls:
+    - text: "X"
+      link: "https://x.com/OnyxDAO/status/1839444120060023167"
+  description: "Onyx protocol suffered a security breach, resulting in a loss of over $3.8 million. The attacker exploited a known precision issue in the Compound V2 code. Additionally, the NFTLiquidation contract failed to properly validate untrusted user input, allowing the attacker to inflate the self-liquidation reward amount, worsening the losses."
+  attack_method: "Contract Vulnerability"
+  when: 1727308800000 # 2024-09-26
+  stolen_usd: 3800000
+  stolen_usd_str: "$3,8 Millions"
+
+- title: "Shezmu"
+  urls:
+    - text: "Article"
+      link: "https://www.web3isgoinggreat.com/?id=shezmu-hack"
+  description: "A crypto yield platform called Shezmu suffered a loss of around $4.9 million in $ShezUSD after an attacker exploited a flaw that allowed anyone to mint collateral, which they could then use to borrow ShezUSD. Shortly after, Shezmu negotiated a bounty and recovered part of the funds."
+  attack_method: "Contract Vulnerability"
+  when: 1726963200000 # 2024-09-21
+  stolen_usd: 4900000
+  stolen_usd_str: "$4,9 Millions"
+
+- title: "Banana Gun"
+  urls:
+    - text: "X"
+      link: "https://x.com/BananaGunBot/status/1838660010387116484"
+  description: "Banana Gun stated that some users experienced unauthorized wallet transfers. The breach may have stemmed from a front-end vulnerability, leading to $3 million in losses. The team later confirmed full reimbursement to affected users."
+  attack_method: "Unknown"
+  when: 1726790400000 # 2024-09-19
+  stolen_usd: 3000000
+  stolen_usd_str: "$3 Millions"
+
+- title: "OTSea"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/address/0x000000003704bc4ffb86000046721f44ef3dbabe"
+  description: "Peer-to-peer trading platform OTSea's staking contract on Ethereum was exploited by an EOA, resulting in the theft of approximately $26,000."
+  attack_method: "Unknown"
+  when: 1726358400000 # 2024-09-13
+  stolen_usd: 26000
+  stolen_usd_str: "$26,000"
+
+- title: "Omnipus"
+  urls:
+    - text: "X"
+      link: "https://x.com/Omnipus_X/status/1833840674602446993"
+  description: "Omnipus contracts were drained of approximately $30,000 during the OPUS token presale. The attack exploited a refund vulnerability, allowing attackers to steal funds."
+  attack_method: "Contract Vulnerability"
+  when: 1726185600000 # 2024-09-11
+  stolen_usd: 30000
+  stolen_usd_str: "$30,000"
+
+- title: "Penpie"
+  urls:
+    - text: "Article"
+      link: "https://www.odaily.news/newsflash/388884"
+  description: "The decentralized liquidity yield project Penpie was attacked, resulting in nearly $30 million in losses. The attacker exploited assumptions about Pendle Finance market legitimacy, leveraging flash loans."
+  attack_method: "Contract Vulnerability"
+  when: 1725580800000 # 2024-09-04
+  stolen_usd: 27348259
+  stolen_usd_str: "$27,34 Millions"
+
+- title: "Aave"
+  urls:
+    - text: "Article"
+      link: "https://www.web3isgoinggreat.com/?id=peripheral-aave-smart-contract-hack"
+  description: "The DeFi lending platform Aave was attacked due to a contract vulnerability. The attacker exploited an arbitrary call error in a peripheral smart contract, stealing around $56,000. Aave representatives confirmed that the attack posed no risk to user funds within the core protocol."
+  attack_method: "Contract Vulnerability"
+  when: 1724976000000 # 2024-08-28
+  stolen_usd: 56000
+  stolen_usd_str: "$56,000"
+
+- title: "Vow"
+  urls:
+    - text: "X"
+      link: "https://x.com/Vowcurrency/status/1823407231658025300"
+  description: "Vow suffered an attack due to a contract vulnerability, resulting in a loss of approximately $1.2 million."
+  attack_method: "Contract Vulnerability"
+  when: 1723593600000 # 2024-08-13
+  stolen_usd: 1200000
+  stolen_usd_str: "$1,2 Millions"
+
+- title: "SATOSHI (SATS)"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0x1ca4c52ca78d3c5856fb3a28e46164fff23c5205c69f4835e94c54147a373cce"
+  description: "According to monitoring by the SlowMist security team, SATOSHI (SATS) was attacked on Ethereum due to a smart contract vulnerability."
+  attack_method: "Contract Vulnerability"
+  when: 1722729600000 # 2024-08-03
+  stolen_usd: 5000
+  stolen_usd_str: "$5,000"
+
+- title: "Convergence Finance"
+  urls:
+    - text: "Medium"
+      link: "https://medium.com/@cvg_wireshark/post-mortem-08-01-2024-e80a49d108a0"
+  description: "A contract exploit allowed hackers to mint and sell 58M CVG (~$210,000), along with stealing ~$2,000 in Convex rewards. The exploit stemmed from a lack of validation in the reward distribution contract."
+  attack_method: "Contract Vulnerability"
+  when: 1722556800000 # 2024-08-01
+  stolen_usd: 210000
+  stolen_usd_str: "$210,000"
+
+- title: "Spectra"
+  urls:
+    - text: "X"
+      link: "https://x.com/spectra_finance/status/1815813300111786488"
+  description: "Spectra suffered an attack that led to a loss of approximately $550,000. The attack stemmed from an arbitrary call in the router contract, allowing the attacker to drain all tokens approved by the contract."
+  attack_method: "Contract Vulnerability"
+  when: 1721865600000 # 2024-07-23
+  stolen_usd: 550000
+  stolen_usd_str: "$550,000"
+
+- title: "Minterest"
+  urls:
+    - text: "X"
+      link: "https://x.com/Minterest/status/1812540672248820033"
+  description: "A flash loan attack on the cross-chain lending protocol Minterest resulted in a loss of approximately $1.4M."
+  attack_method: "Flash Loan Attack"
+  when: 1721174400000 # 2024-07-15
+  stolen_usd: 1400000
+  stolen_usd_str: "$1,4 Millions"
+
+- title: "Dough Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1811655943056425236"
+  description: "Dough Finance was attacked due to a contract vulnerability, losing ~$2.1M. White hat hackers returned 76 ETH (~$260K)."
+  attack_method: "Contract Vulnerability"
+  when: 1720915200000 # 2024-07-12
+  stolen_usd: 2100000
+  stolen_usd_str: "$2,1 Millions"
+
+- title: "OpSec"
+  urls:
+    - text: "X"
+      link: "https://x.com/OpSecCloud/status/1811074256220115283"
+  description: "OpSec staking contract was maliciously upgraded, allowing attackers to withdraw OPSEC tokens worth ~$182K."
+  attack_method: "Security Vulnerability"
+  when: 1720828800000 # 2024-07-11
+  stolen_usd: 182000
+  stolen_usd_str: "$182,000"
+
+- title: "APEMAGA"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0xb310d76120a8a1124533e49d6e91721624435b0df240b54c897307205df06105"
+  description: "APEMAGA on Ethereum was suspected to have been attacked, resulting in a loss of approximately $32,000."
+  attack_method: "Unknown"
+  when: 1721952000000 # 2024-06-26
+  stolen_usd: 32000
+  stolen_usd_str: "$32,000"
+
+- title: "WIFCOIN_ETH"
+  urls:
+    - text: "X"
+      link: "https://x.com/WIFCOIN_ETH/status/1803841123204382926"
+  description: "The meme coin WIFCOIN_ETH was suspected to be attacked, with a loss of approximately $16,000."
+  attack_method: "Unknown"
+  when: 1721251200000 # 2024-06-17
+  stolen_usd: 16000
+  stolen_usd_str: "$16,000"
+
+- title: "UwU Lend (Second Attack)"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1801161421138600443"
+  description: "After the attack on June 10, UwU Lend was exploited again by the same attacker, resulting in a loss of $3.72 million. The attacker leveraged remaining USDE funds from the first attack to drain additional lending pools."
+  attack_method: "Contract Vulnerability"
+  when: 1720915200000 # 2024-06-13
+  stolen_usd: 3720000
+  stolen_usd_str: "$3,72 Millions"
+
+- title: "UwU Lend"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1800181916857155761"
+  description: "UwU Lend suffered a $19.3M loss due to an oracle manipulation attack. The attacker manipulated the price of the sUSDE token using CurveFinance pools and arbitraged assets from the pool."
+  attack_method: "Contract Vulnerability"
+  when: 1717987200000 # 2024-06-10
+  stolen_usd: 19300000
+  stolen_usd_str: "$19,3 Millions"
+
+- title: "JokInTheBoxETH"
+  urls:
+    - text: "X"
+      link: "https://x.com/JokInTheBoxETH/status/1800539599082500106"
+  description: "MEV Bot JokInTheBoxETH was attacked, resulting in a $34,000 loss. The exploiter took advantage of an unstake function flaw that did not properly validate multiple unstaking attempts."
+  attack_method: "Contract Vulnerability"
+  when: 1717987200000 # 2024-06-10
+  stolen_usd: 34000
+  stolen_usd_str: "$34,000"
+
+- title: "Perpy Finance"
+  urls:
+    - text: "Article"
+      link: "https://perpy-finance.beehiiv.com/p/update-recent-exploit"
+  description: "Perpy Finance was hacked, allowing a hacker to update the contract and withdraw 58.5M PRY tokens, swapping them for 41.89 ETH (~$132,000). The issue arose from an unaudited fork of the staking contract."
+  attack_method: "Contract Vulnerability"
+  when: 1714953600000 # 2024-05-06
+  stolen_usd: 132000
+  stolen_usd_str: "$132,000"
+
+- title: "Pike Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/PikeFinance/status/1785572875124330644"
+  description: "Pike Finance was exploited, losing ~$1.68M due to weak security measures in handling CCTP transfers. The protocol suffered an additional $300K loss a few days earlier."
+  attack_method: "Contract Vulnerability"
+  when: 1714435200000 # 2024-04-30
+  stolen_usd: 1680000
+  stolen_usd_str: "$1,68 Millions"
+
+- title: "Prisma Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/PrismaFi/status/1773316945430852058"
+  description: "Decentralized lending protocol Prisma Finance was hacked, losing approximately 3,257.7 ETH (~$11.6M). The protocol has been suspended while investigations are ongoing."
+  attack_method: "Contract Vulnerability"
+  when: 1711584000000 # 2024-03-28
+  stolen_usd: 11600000
+  stolen_usd_str: "$11,6 Millions"
+
+- title: "Curio Ecosystem"
+  urls:
+    - text: "Article"
+      link: "https://www.theblockbeats.info/flash/240546"
+  description: "Curio Ecosystem suffered a $16M attack targeting smart contracts based on MakerDAO. The exploit involved a permission access logic vulnerability."
+  attack_method: "Contract Vulnerability"
+  when: 1711238400000 # 2024-03-24
+  stolen_usd: 16000000
+  stolen_usd_str: "$16 Millions"
+
+- title: "Unizen"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1766311510362734824"
+  description: "Unizen lost ~$2.1M in an attack exploiting an external call vulnerability in its smart contract. The team later recovered $185,000 from four hackers."
+  attack_method: "Contract Vulnerability"
+  when: 1710115200000 # 2024-03-09
+  stolen_usd: 2100000
+  stolen_usd_str: "$2,1 Millions"
+
+- title: "Seneca"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1762865505042645010"
+  description: "Omnichain CDP protocol Seneca was hacked for over 1,900 ETH (~$6.5M). The hacker later returned 1,537 ETH (~$5.3M) to the deployer address."
+  attack_method: "Contract Vulnerability"
+  when: 1709078400000 # 2024-02-28
+  stolen_usd: 6500000
+  stolen_usd_str: "$6,5 Millions"
+
+- title: "ZoomerCoin"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1761067998633136243"
+  description: "ZoomerCoin on Ethereum suffered a flash loan attack, losing 14.06 ETH (~$41K)."
+  attack_method: "Flash Loan Attack"
+  when: 1708819200000 # 2024-02-24
+  stolen_usd: 41000
+  stolen_usd_str: "$41,000"
+
+- title: "Compound"
+  urls:
+    - text: "X"
+      link: "https://x.com/0xLEVI104/status/1762092203894276481"
+  description: "A UNI price surge caused Compound to use incorrect Uniswap TWAP data, leading to $660,000 in bad debt."
+  attack_method: "Security Vulnerability"
+  when: 1708732800000 # 2024-02-23
+  stolen_usd: 660000
+  stolen_usd_str: "$660,000"
+
+- title: "Blueberry Protocol"
+  urls:
+    - text: "X"
+      link: "https://x.com/web3isgreat/status/1761101904795271657"
+  description: "Blueberry Protocol was exploited for ~$1.35M due to a faulty oracle. A white hat hacker intercepted part of the funds and returned 366 ETH."
+  attack_method: "Oracle Misconfiguration"
+  when: 1708646400000 # 2024-02-22
+  stolen_usd: 1350000
+  stolen_usd_str: "$1,35 Millions"
+
+- title: "Miner (MINER)"
+  urls:
+    - text: "X"
+      link: "https://x.com/shoucccc/status/1757777764646859121"
+  description: "Miner (MINER) was attacked due to a double-transfer vulnerability in its smart contract, leading to a loss of ~$466,000."
+  attack_method: "Contract Vulnerability"
+  when: 1707868800000 # 2024-02-14
+  stolen_usd: 466000
+  stolen_usd_str: "$466,000"
+
+- title: "Abracadabra Money"
+  urls:
+    - text: "X"
+      link: "https://x.com/MIM_Spell/status/1752368458715607261"
+  description: "DeFi protocol Abracadabra Money (MIM_Spell) was attacked, resulting in ~$6.5M in unauthorized MIM borrowing. The vulnerability affected specific Cauldrons V3 & V4."
+  attack_method: "Security Vulnerability"
+  when: 1707264000000 # 2024-01-31
+  stolen_usd: 6500000
+  stolen_usd_str: "$6,5 Millions"
+
+- title: "Barley Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/Barley_Finance/status/1751693455179522139"
+  description: "Barley Finance suffered a vulnerability attack on its wBARL pod, leading to a loss of ~$130,000. The team is working on a resolution."
+  attack_method: "Contract Vulnerability"
+  when: 1707081600000 # 2024-01-29
+  stolen_usd: 130000
+  stolen_usd_str: "$130,000"
+
+- title: "Bullran Index"
+  urls:
+    - text: "X"
+      link: "https://x.com/tonyke_bot/status/1749489858807230734"
+  description: "Bullran Index was attacked due to a lack of permission control. An MEV bot burned BUI tokens in a custom safe contract and exploited the lack of permission control to extract 136 ETH."
+  attack_method: "Contract Vulnerability"
+  when: 1705881600000 # 2024-01-22
+  stolen_usd: 310000
+  stolen_usd_str: "$310,000"
+
+- title: "BasketDAO"
+  urls:
+    - text: "Article"
+      link: "https://foresightnews.pro/news/detail/37065"
+  description: "The crypto index project BasketDAO was exploited on Ethereum due to a smart contract vulnerability, resulting in a loss of approximately $107,000."
+  attack_method: "Contract Vulnerability"
+  when: 1705449600000 # 2024-01-17
+  stolen_usd: 107000
+  stolen_usd_str: "$107,000"
+
+- title: "Socket"
+  urls:
+    - text: "X"
+      link: "https://x.com/socketdottech/status/1747349422730813525?s=46&t=VOX9GON9LkityHRA95UVTQ"
+  description: "Socket suffered a security breach via a newly added module responsible for swapping tokens. The attacker exploited the vulnerability to steal funds from users who had given infinite approval, leading to a loss of $3.3 million."
+  attack_method: "Contract Vulnerability"
+  when: 1705363200000 # 2024-01-16
+  stolen_usd: 3300000
+  stolen_usd_str: "$3,3 Millions"
+
+- title: "Wise Lending"
+  urls:
+    - text: "X"
+      link: "https://x.com/peckshield/status/1745907642118123774?s=46&t=DLwbX9Nw4QECiyZQ0av-fg"
+  description: "Wise Lending was exploited due to a flawed share accounting logic with precision issues, leading to a loss of 177 ETH (~$464K)."
+  attack_method: "Contract Vulnerability"
+  when: 1704931200000 # 2024-01-11
+  stolen_usd: 464000
+  stolen_usd_str: "$464,000"
+
+- title: "Peapods Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/zachxbt/status/1735025990819049968"
+  description: "Peapods Finance was hacked due to a reentrancy vulnerability. White hat hackers initially took control and later returned 90% of the funds."
+  attack_method: "Reentrancy Attack"
+  when: 1702425600000 # 2023-12-13
+  stolen_usd: 230000
+  stolen_usd_str: "$230,000"
+
+- title: "Time"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/articledetails/4hkd7dcm.html"
+  description: "Time on ETH was attacked due to a security vulnerability in the thirdweb pre-built smart contracts, leading to a loss of approximately $190,000."
+  attack_method: "Contract Vulnerability"
+  when: 1701993600000 # 2023-12-07
+  stolen_usd: 190000
+  stolen_usd_str: "$190,000"
+
+- title: "Kyber Network"
+  urls:
+    - text: "X"
+      link: "https://x.com/KyberNetwork/status/1727475235342217682"
+  description: "KyberSwap Elastic suffered a liquidity exploit leading to a $54.7M loss. The vulnerability in KyberSwap Elastic allowed attackers to manipulate liquidity updates and extract excessive tokens."
+  attack_method: "Liquidity Exploit"
+  when: 1700697600000 # 2023-11-23
+  stolen_usd: 54700000
+  stolen_usd_str: "$54,7 Millions"
+
+- title: "Raft Protocol"
+  urls:
+    - text: "X"
+      link: "https://x.com/raft_fi/status/1723057566664548623"
+  description: "The stablecoin protocol Raft on Ethereum was attacked and lost about $3.3 million in ETH."
+  attack_method: "Flash Loan Attack"
+  when: 1699747200000 # 2023-11-11
+  stolen_usd: 3300000
+  stolen_usd_str: "$3,3 Millions"
+
+- title: "Mirage Finance"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0xb3456a338d7b3e7936a4d08b34e265818c116b7871baef8df1492a35f9f3b1bc"
+  description: "Mirage Finance has been exploited for approximately $12K, with its $MRG token dropping 54%."
+  attack_method: "Unknown"
+  when: 1699392000000 # 2023-11-08
+  stolen_usd: 12000
+  stolen_usd_str: "$12,000"
+
+- title: "MEV Robot"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1722081647028478029"
+  description: "The MEV robot (0x05f016765c6c601fd05a10dba1abe21a04f924a5) was exploited due to a lack of authentication in a key function, resulting in a loss of about 1,000 ETH."
+  attack_method: "Flash Loan Attack"
+  when: 1699305600000 # 2023-11-07
+  stolen_usd: 2152392
+  stolen_usd_str: "$2,15 Millions"
+
+- title: "Onyx Protocol"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1719667931926413679"
+  description: "DeFi lending protocol Onyx Protocol has been exploited, resulting in losses of approximately $2.1 million."
+  attack_method: "Contract Vulnerability"
+  when: 1698796800000 # 2023-11-01
+  stolen_usd: 2100000
+  stolen_usd_str: "$2,1 Millions"
+
+- title: "Unibot"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1719242913769803788"
+  description: "Unibot was exploited due to insufficient parameter checks that allowed the transfer of tokens for which users had approved the contract."
+  attack_method: "Contract Vulnerability"
+  when: 1698691200000 # 2023-10-31
+  stolen_usd: 560000
+  stolen_usd_str: "$560,000"
+
+- title: "Astrid"
+  urls:
+    - text: "X"
+      link: "https://x.com/AstridFinance/status/1718254655288066501"
+  description: "The Ethereum liquidity restaking pool Astrid was attacked due to a vulnerability in the withdrawal function, resulting in a loss of approximately $228,000. Hackers later returned 80% of the stolen funds (102 ETH)."
+  attack_method: "Contract Vulnerability"
+  when: 1698451200000 # 2023-10-28
+  stolen_usd: 228000
+  stolen_usd_str: "$228,000"
+
+- title: "HopeLend"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1714655324395704423"
+  description: "On October 18, 2023, HopeLend was attacked, losing approximately 528 ETH. Out of this, 263.91 ETH were bribed to a validator and 264.08 ETH were profited by the frontrunner. A frontrunner later returned the acquired assets."
+  attack_method: "Contract Vulnerability"
+  when: 1697596800000 # 2023-10-18
+  stolen_usd: 818747
+  stolen_usd_str: "$818,747"
+
+- title: "pSeudoEth"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0x4ab68b21799828a57ea99c1288036889b39bf85785240576e697ebff524b3930"
+  description: "The pSeudoEth token on ETH was exploited for ~$2.3K in a flash loan attack. Contract: 0x62aBdd605E710Cc80a52062a8cC7c5d659dDDbE7. Attacker: 0xea75AeC151f968b8De3789CA201a2a3a7FaeEFbA."
+  attack_method: "Flash Loan Attack"
+  when: 1696723200000 # 2023-10-08
+  stolen_usd: 2300
+  stolen_usd_str: "$2,300"
+
+- title: "DePay"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/address/0xae60ac8e69414c2dc362d0e6a03af643d1d85b92"
+  description: "A flash loan attack on the DePay platform resulted in the theft of 827 USDC. The exploiter leveraged a security issue with DePay's router to steal the funds."
+  attack_method: "Flash Loan Attack"
+  when: 1696464000000 # 2023-10-05
+  stolen_usd: 827
+  stolen_usd_str: "$827"
+
+- title: "OxODexPool"
+  urls:
+    - text: "Twitter"
+      link: "https://x.com/Cointime_CN/status/1701420147616145422"
+  description: "OxODexPool suffered a flash loan attack, losing ~40 ETH (~$61K). The stolen funds are still in the attacker's wallet."
+  attack_method: "Flash Loan Attack"
+  when: 1694476800000 # 2023-09-12
+  stolen_usd: 61000
+  stolen_usd_str: "$61,000"
+
+- title: "Balancer"
+  urls:
+    - text: "Twitter"
+      link: "https://x.com/balancer/status/1694014645378724280"
+  description: "Balancer suffered a critical vulnerability affecting multiple V2 pools. Emergency measures secured most TVL, but losses exceeded $2.1M."
+  attack_method: "Flash Loan Attack"
+  when: 1692662400000 # 2023-08-22
+  stolen_usd: 2100000
+  stolen_usd_str: "$2,1 Millions"
+
+- title: "Exactly Protocol"
+  urls:
+    - text: "Wu-Talk"
+      link: "https://www.wu-talk.com/index.php?m=content&c=index&a=show&catid=46&id=17283"
+  description: "The DeFi lending protocol Exactly Protocol was attacked due to unchecked input data, losing ~$7.3M. The exploit allowed unauthorized borrowing."
+  attack_method: "Unchecked Input Data"
+  when: 1692316800000 # 2023-08-18
+  stolen_usd: 7300000
+  stolen_usd_str: "$7,3 Millions"
+
+- title: "Zunami Protocol"
+  urls:
+    - text: "Article"
+      link: "https://www.odaily.news/newsflash/332604?source=share"
+  description: "The Zunami Protocol on Ethereum suffered a price manipulation attack and lost 1,179 ETH (approximately $2.2 million). The attacker manipulated the LP price by transferring CRV to the contract and manipulating the conversion ratio of the wETH/CRV pool. ETH has been transferred to Tornado Cash."
+  attack_method: "Price Manipulation"
+  when: 1691971200000 # 2023-08-14
+  stolen_usd: 2200000
+  stolen_usd_str: "$2,2 Millions"
+
+- title: "Earning.Farm"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/address/0xee4b3dd20902Fa3539706F25005fa51D3b7bDF1b"
+  description: "The DeFi project Earning.Farm suffered a reentrancy attack and lost 286 ETH (approximately $530,000). The attacker manipulated LP token transfers when withdrawing funds, exploiting an update logic vulnerability to withdraw more than expected."
+  attack_method: "Reentrancy Attack"
+  when: 1691539200000 # 2023-08-09
+  stolen_usd: 530000
+  stolen_usd_str: "$530,000"
+
+- title: "Uwerx Network"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1686674169189249024"
+  description: "The Uwerx network was attacked and lost about 174.78 ETH ($324,000). The attack involved manipulating the token price by exploiting the skim function of the Uniswap V2 pool."
+  attack_method: "Price Manipulation"
+  when: 1690848000000 # 2023-08-02
+  stolen_usd: 324000
+  stolen_usd_str: "$324,000"
+
+- title: "Curve Finance"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/wu339f1f.html"
+  description: "Curve Finance suffered an exploit due to a Vyper 0.2.15 vulnerability, leading to losses of $73.5 million across multiple pools. The total amount lost to Curve pools amounted to $25.12 million."
+  attack_method: "Affected by Vyper Vulnerability"
+  when: 1690675200000 # 2023-07-30
+  stolen_usd: 25123594
+  stolen_usd_str: "$25,12 Millions"
+
+- title: "Alchemix"
+  urls:
+    - text: "X"
+      link: "https://x.com/AlchemixFi/status/1685737632133971968"
+  description: "Alchemix lost about 5,000 ETH (~$35.3M) due to the Curve Finance exploit. The alETH/ETH Curve pool was drained by an attacker. A white-hat MEV bot later returned some of the stolen funds."
+  attack_method: "Affected by Vyper Vulnerability"
+  when: 1690675200000 # 2023-07-30
+  stolen_usd: 35315843
+  stolen_usd_str: "$35,31 Millions"
+
+- title: "Vyper"
+  urls:
+    - text: "Security Report"
+      link: "https://hackmd.io/@vyperlang/HJUgNMhs2"
+  description: "The Ethereum compiler Vyper suffered a vulnerability allowing reentrancy exploits. Multiple Curve liquidity pools were affected. A patch was implemented in v0.3.1."
+  attack_method: "Compiler Bug"
+  when: 1690675200000 # 2023-07-30
+  stolen_usd: 0
+  stolen_usd_str: "$0"
+
+- title: "Conic Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/ConicFinance/status/1682524319518269440"
+  description: "Conic Finance suffered an exploit on its crvUSD Omnipool, leading to losses of approximately $300,000."
+  attack_method: "Flash Loan Attack"
+  when: 1690012800000 # 2023-07-22
+  stolen_usd: 300000
+  stolen_usd_str: "$300,000"
+
+- title: "Conic Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/ConicFinance/status/1682385596700844032"
+  description: "On July 21, Conic Finance’s ETH omnipool was hit by a series of reentrancy attacks, costing around $3.2 million. The root cause was an incorrect assumption about the address returned by ETH’s Curve meta-registry."
+  attack_method: "Reentrancy Attack"
+  when: 1689897600000 # 2023-07-21
+  stolen_usd: 3200000
+  stolen_usd_str: "$3,2 Millions"
+
+- title: "Ethscriptions.com"
+  urls:
+    - text: "X"
+      link: "https://x.com/dumbnamenumbers/status/1679259067833786374"
+  description: "Ethscriptions.com was hacked, leading to the loss of about 202 Ethscriptions. The estimated value of the loss was at least $2,828."
+  attack_method: "Contract Vulnerability"
+  when: 1689206400000 # 2023-07-13
+  stolen_usd: 2828
+  stolen_usd_str: "$2,828"
+
+- title: "Arcadia Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/Phalcon_xyz/status/1678270672911605760"
+  description: "Arcadia Finance was exploited on Ethereum and Optimism, with attackers profiting ~$455,000 by bypassing collateral checks using reentrancy."
+  attack_method: "Contract Vulnerability"
+  when: 1688947200000 # 2023-07-10
+  stolen_usd: 455000
+  stolen_usd_str: "$455,000"
+
+- title: "CivFund"
+  urls:
+    - text: "X"
+      link: "https://x.com/revokecash/status/1677729762653995011?s=46&t=DLwbX9Nw4QECiyZQ0av-fg"
+  description: "CivFund’s ETH contract was exploited, leading to losses of $180,000. Attackers used the uniswapV3MintCallback function to transfer funds approved by other users."
+  attack_method: "Contract Vulnerability"
+  when: 1688774400000 # 2023-07-09
+  stolen_usd: 180000
+  stolen_usd_str: "$180,000"
+
+- title: "MIKE & SID"
+  urls:
+    - text: "Article"
+      link: "https://foresightnews.pro/news/detail/25656"
+  description: "The token projects Mike Wazowski Monsters Inc ($MIKE) and Sid Ice Age ($SID) on the Ethereum chain were rugged via a backdoor function allowing unlimited minting of tokens. The scammer profited 87.9 ETH (~$171,000)."
+  attack_method: "Contract Vulnerability"
+  when: 1688428800000 # 2023-07-04
+  stolen_usd: 171000
+  stolen_usd_str: "$171,000"
+
+- title: "Themis"
+  urls:
+    - text: "X"
+      link: "https://x.com/ThemisProtocol/status/1673806486299099137"
+  description: "The Themis cryptographic lending protocol suffered a price manipulation attack, where an exploitable oracle allowed attackers to steal ~$370,000 by inflating asset values."
+  attack_method: "Price Manipulation"
+  when: 1687910400000 # 2023-06-28
+  stolen_usd: 370000
+  stolen_usd_str: "$370,000"
+
+- title: "DEP/USDT & LEV/USDC"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/xbxdm9ar.html"
+  description: "DEP/USDT and LEV/USDC pools were exploited, with 105,800 stablecoins stolen (36,000 USDC and 69,960,000 USDT). Attackers initially funded their wallet with 1 ETH from Tornado Cash."
+  attack_method: "Unknown"
+  when: 1686806400000 # 2023-06-15
+  stolen_usd: 105800
+  stolen_usd_str: "$105,800"
+
+- title: "Sturdy"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/address/0x1e8419e724d51e87f78e222d935fbbdeb631a08b"
+  description: "The DeFi lending protocol Sturdy is suspected to have been hacked, and information on the chain suggests that the attack may have been carried out through price manipulation."
+  attack_method: "Price Manipulation"
+  when: 1686806400000 # 2023-06-15
+  stolen_usd: 770000
+  stolen_usd_str: "$770,000"
+
+- title: "Sashimi Swap"
+  urls:
+    - text: "X"
+      link: "https://x.com/ArkhamIntel/status/1664210608865042435"
+  description: "A MEV bot exploited Sashimi Swap via a flash loan of 95,000 WETH (worth $180M). The attack drained only $3,500 from Sashimi’s contracts."
+  attack_method: "Flash Loan Attack"
+  when: 1685491200000 # 2023-05-31
+  stolen_usd: 3500
+  stolen_usd_str: "$3,500"
+
+- title: "EDE"
+  urls:
+    - text: "X"
+      link: "https://x.com/resdegen/status/1663322636594675713"
+  description: "El Dorado Exchange (EDE) was attacked, leading to losses of about $580,000. The attacker exploited a contract backdoor to liquidate positions."
+  attack_method: "Contract Vulnerability"
+  when: 1685404800000 # 2023-05-30
+  stolen_usd: 580000
+  stolen_usd_str: "$580,000"
+
+- title: "WEEB"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/iizfq6j2.html"
+  description: "The WEEB project suffered a price manipulation attack, where the attacker burned tokens to inflate prices, gaining 16 ETH."
+  attack_method: "Price Manipulation"
+  when: 1683676800000 # 2023-05-10
+  stolen_usd: 29120
+  stolen_usd_str: "$29,120"
+
+- title: "FLOKI"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0x118b7b7c11f9e9bd630ea84ef267b183b34021b667f4a3061f048207d266437a"
+  description: "The meme cryptocurrency FLOKI suffered a flash loan attack, leading to a loss of over $50,000."
+  attack_method: "Flash Loan Attack"
+  when: 1683676800000 # 2023-05-10
+  stolen_usd: 50000
+  stolen_usd_str: "$50,000"
+
+- title: "MChainCapital"
+  urls:
+    - text: "X"
+      link: "https://x.com/NumenAlert/status/1655851512445403138"
+  description: "MChainCapital suffered a flash loan attack, leading to a loss of about $18,871."
+  attack_method: "Flash Loan Attack"
+  when: 1683590400000 # 2023-05-09
+  stolen_usd: 18871
+  stolen_usd_str: "$18,871"
+
+- title: "KyberSwap"
+  urls:
+    - text: "X"
+      link: "https://x.com/KyberNetwork/status/1647920799557505028"
+  description: "KyberSwap discovered a potential loophole in KyberSwap Elastic and advised liquidity providers to withdraw their funds. No user assets were lost."
+  attack_method: "Contract Vulnerability"
+  when: 1681699200000 # 2023-04-17
+  stolen_usd: 0
+  stolen_usd_str: "$0"
+
+- title: "Yearn Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/yearnfi/status/1646436798086672385"
+  description: "The decentralized revenue aggregation platform Yearn Finance was attacked, with hackers making over $10 million in profits by exploiting a vulnerability in the yUSDT contract."
+  attack_method: "Contract Vulnerability"
+  when: 1681344000000 # 2023-04-13
+  stolen_usd: 10000000
+  stolen_usd_str: "$10 Millions"
+
+- title: "SushiSwap"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1644936375924584449"
+  description: "SUSHI RouteProcessor2 was attacked and lost about 1800 ETH, approximately $3.34 million. The vulnerability was due to the ProcessRoute function not performing checks on route parameters, allowing attackers to create a malicious route parameter and drain funds. SushiSwap refunded part of the funds, returning 885 ETH."
+  attack_method: "Unchecked Input Data"
+  when: 1680998400000 # 2023-04-09
+  stolen_usd: 3340000
+  stolen_usd_str: "$3,34 Millions"
+
+- title: "Swerve Finance"
+  urls:
+    - text: "Article"
+      link: "https://www.chaincatcher.com/article/2089961"
+  description: "Swerve Finance, despite being a defunct project, was subjected to a governance attack resulting in a loss of approximately $1.3 million. Attackers exploited governance vulnerabilities to withdraw funds."
+  attack_method: "Governance Attack"
+  when: 1679702400000 # 2023-03-25
+  stolen_usd: 1300000
+  stolen_usd_str: "$1,3 Millions"
+
+- title: "Indexed Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/AnciliaInc/status/1637925297327865856"
+  description: "Indexed Finance's ORCL5 Token contract suffered a flash loan attack, resulting in a loss of $9,925. The root cause was a calculation error in 'calcSingleOutGivenPoolIn()' that allowed an incorrect value of tokenAmountOut."
+  attack_method: "Flash Loan Attack"
+  when: 1679356800000 # 2023-03-21
+  stolen_usd: 9925
+  stolen_usd_str: "$9,925"
+
+- title: "Poolz Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/Poolz__/status/1635899850918178817"
+  description: "Poolz Finance's LockedDeal contract was hacked, leading to a loss of approximately $500,000. The attacker exploited an integer overflow vulnerability in the 'CreateMassPools' function, allowing unauthorized access to a large number of tokens."
+  attack_method: "Contract Vulnerability"
+  when: 1678819200000 # 2023-03-15
+  stolen_usd: 500000
+  stolen_usd_str: "$500,000"
+
+- title: "Yearn Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/iearnfinance/status/1635312188712792065"
+  description: "Yearn Finance's vaults were indirectly impacted by the Euler Finance hack, leading to exposure of $1.38 million in yvUSDT and yvUSDC. The Yearn Treasury covered the bad debt, and all affected vaults remained operational."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678752000000 # 2023-03-14
+  stolen_usd: 1380000
+  stolen_usd_str: "$1,380,000"
+
+- title: "Idle Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/idlefinance/status/1635356439849099264"
+  description: "The DeFi protocol Idle Finance estimated an exposure of $10.99 million due to the Euler Finance attack, affecting its Yield Tranches and Best Yield vaults."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678752000000 # 2023-03-14
+  stolen_usd: 10990000
+  stolen_usd_str: "$10,99 Millions"
+
+- title: "Yield Protocol"
+  urls:
+    - text: "X"
+      link: "https://x.com/yield/status/1635339497067130881"
+  description: "Yield Protocol, a fixed-rate lending platform, suffered losses of about $1.5 million in its liquidity pool due to exposure to the Euler Finance attack."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678752000000 # 2023-03-14
+  stolen_usd: 1500000
+  stolen_usd_str: "$1,5 Millions"
+  
+- title: "Sherlock"
+  urls:
+    - text: "X"
+      link: "https://x.com/sherlockdefi/status/1635366485123268610"
+  description: "Sherlock, a DeFi security provider, had a $10 million partnership with Euler Finance, offering smart contract auditing and insurance services. Following the Euler exploit, Sherlock approved a $4.5 million payout to Euler."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 4500000
+  stolen_usd_str: "$4,5 Millions"
+
+- title: "Euler Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/SlowMist_Team/status/1635288963580825606"
+  description: "Euler Finance was attacked via a flash loan exploit, leading to a loss of approximately $197 million. The attacker leveraged multiple liquidations and self-liquidation tactics to drain funds. Euler Finance later recovered the stolen assets through negotiations."
+  attack_method: "Flash Loan Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 197000000
+  stolen_usd_str: "$197 Millions"
+  
+- title: "Sense Finance"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/articledetails/v0dusvai.html"
+  description: "Sense Finance, a fixed-rate lending protocol, was indirectly affected by the Euler exploit due to its integration with Idle Finance, leading to potential losses."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 0
+  stolen_usd_str: "$0"
+  
+- title: "Balancer"
+  urls:
+    - text: "X"
+      link: "https://x.com/Balancer/status/1635296206221090817"
+  description: "Balancer reported that approximately $11.9 million was sent to Euler from the bbeUSD liquidity pool during the exploit, accounting for 65% of the pool's TVL. The pool was paused and put into recovery mode to prevent further losses."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 11900000
+  stolen_usd_str: "$11,9 Millions"
+  
+- title: "Angle Protocol"
+  urls:
+    - text: "X"
+      link: "https://x.com/AngleProtocol/status/1635293731082612738"
+  description: "Angle Protocol reported a loss of approximately $17.6 million USDC due to the Euler exploit, potentially affecting the collateralization of its agEUR stablecoin. Minting and redemption of agEUR were paused, but borrowers could still repay their debts."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 17600000
+  stolen_usd_str: "$17,6 Millions"
+  
+- title: "Inverse Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/InverseFinance/status/1635280206171885572"
+  description: "Inverse Finance reported that its DOLA Fed for the DOLA-bb-e-USD pool on Balancer lost over $860,000 due to the Euler exploit. The team is working with Balancer to recover the remaining funds."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 860000
+  stolen_usd_str: "$860,000"
+  
+- title: "SwissBorg"
+  urls:
+    - text: "X"
+      link: "https://x.com/swissborg/status/1635250132370477056"
+  description: "SwissBorg reported that a small portion of its Smart Yield Program was impacted by the Euler exploit, with losses including 1,617.23 ETH and approximately 1.69 million USDT. The platform will cover all losses, ensuring users do not suffer any financial impact."
+  attack_method: "Affected by Euler Finance Attack"
+  when: 1678665600000 # 2023-03-13
+  stolen_usd: 4500000
+  stolen_usd_str: "$4,5 Millions"
+
+- title: "Earning.farm"
+  urls:
+    - text: "Etherscan"
+      link: "https://etherscan.io/tx/0x1fe5a53405d00ce2f3e15b214c7486c69cbc5bf165cf9596e86f797f62e81914"
+  description: "On February 24, 2023, Earning.farm's USDC vault was exploited, leading to the loss of approximately $5.15 million."
+  attack_method: "Flash Loan Attack"
+  when: 1677196800000 # 2023-02-24
+  stolen_usd: 5150000
+  stolen_usd_str: "$5,15 Millions"
+
+### From here and above, they are generated using ChatGPT
+
+- title: "Revert Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/revertfinance/status/1627490043026890752"
+  description: "The AMM liquidity management protocol Revert Finance disclosed on Twitter that its v3utils contract was attacked, resulting in the theft of approximately $29,000 worth of assets, including USDC, USDT, OP, WETH, DAI, WMATIC, and Premia."
+  attack_method: "Contract Vulnerability"
+  when: 1676851200000 # 2023-02-20
+  stolen_usd: 29000
+  stolen_usd_str: "$29,000"
+
+- title: "Dexible"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/y4jol3pw.html"
+  description: "The DEX tool Dexible was attacked, resulting in a loss of approximately $2 million. The attack exploited a logical flaw in the selfSwap function, allowing the attacker to transfer tokens authorized by users to the attacker's address."
+  attack_method: "Contract Vulnerability"
+  when: 1676592000000 # 2023-02-17
+  stolen_usd: 2000000
+  stolen_usd_str: "$2 Millions"
+
+- title: "SushiSwap"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/dw2h404u.html"
+  description: "SushiSwap's BentoBoxv1 contract was attacked, resulting in a profit of about $26,000 for the hacker. The attack exploited a delay in the ChainLink price update for the Kashi Medium Risk market, allowing the attacker to liquidate positions and gain profit."
+  attack_method: "Price Manipulation"
+  when: 1675987200000 # 2023-02-10
+  stolen_usd: 26000
+  stolen_usd_str: "$26,000"
+
+- title: "Numbers Protocol"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/q1qgvsgc.html"
+  description: "The Numbers Protocol (NUM) token project on the Ethereum chain was attacked, resulting in a profit of about $13,836 for the attacker. The attack exploited the absence of a permit function and the presence of a callback function, allowing a fake signature to deceive the cross-chain bridge and transfer user assets unexpectedly."
+  attack_method: "Contract Vulnerability"
+  when: 1669161600000 # 2022-11-23
+  stolen_usd: 13836
+  stolen_usd_str: "$13,836"
+
+- title: "DFXFinance"
+  urls:
+    - text: "Article"
+      link: "https://www.odaily.news/post/5187789"
+  description: "The DFX Finance project on the Ethereum chain was attacked, resulting in a profit of about $231,138 for the attackers. The attack exploited the lack of re-entrancy protection in the Curve contract's flash loan function, allowing the attacker to re-enter the deposit function and successfully withdraw funds."
+  attack_method: "Reentrancy Attack"
+  when: 1668124800000 # 2022-11-11
+  stolen_usd: 231138
+  stolen_usd_str: "$231,138"
+
+- title: "brahTOPG"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/q1qgvsgc.html"
+  description: "The brahTOPG project on the Ethereum chain was attacked, resulting in a profit of about $89,879 for the attacker. The attack exploited a strict data validation issue in the Zapper contract, leading to arbitrary external calls and unauthorized token transfers."
+  attack_method: "Contract Vulnerability"
+  when: 1668038400000 # 2022-11-10
+  stolen_usd: 89879
+  stolen_usd_str: "$89,879"
+
+- title: "FriesDAO"
+  urls:
+    - text: "X"
+      link: "https://x.com/friesdao/status/1585712229067915264"
+  description: "FriesDAO was attacked and lost about $2.3 million. The attacker gained control of the FriesDAO protocol operator's wallet through the Profanity wallet generator vulnerability, which forced the use of the private key of the address generated by the tool. FriesDAO developers attempted negotiations with the attacker for a white hat bounty."
+  attack_method: "Profanity Vulnerability"
+  when: 1666934400000 # 2022-10-28
+  stolen_usd: 2300000
+  stolen_usd_str: "$2,3 Millions"
+
+- title: "Team Finance"
+  urls:
+    - text: "X"
+      link: "https://x.com/TeamFinance_/status/1585562380591063043"
+  description: "Team Finance reported a hack during the migration from Uniswap v2 to v3, with losses amounting to approximately $14.5 million worth of tokens. On October 31, a white hat hacker returned $13.4 million in digital assets to multiple affected parties."
+  attack_method: "Contract Vulnerability"
+  when: 1666828800000 # 2022-10-27
+  stolen_usd: 14500000
+  stolen_usd_str: "$14,5 Millions"
+
+- title: "OlympusDAO"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/1i3txm4e.html"
+  description: "A vulnerability in OlympusDAO’s BondFixedExpiryTeller contract led to a loss of approximately $292,000 due to improper input validation. The hacker later returned the stolen funds to the DAO."
+  attack_method: "Contract Vulnerability"
+  when: 1666310400000 # 2022-10-21
+  stolen_usd: 292000
+  stolen_usd_str: "$292,000"
+
+- title: "Ethereum Alarm Clock"
+  urls:
+    - text: "Cointelegraph"
+      link: "https://cointelegraph.com/news/ethereum-alarm-clock-exploit-leads-to-260k-in-stolen-gas-fees-so-far"
+  description: "A vulnerability in the Ethereum Alarm Clock service was exploited, allowing hackers to manipulate the scheduled transaction process and profit from gas fee refunds. The attackers made about $260,000."
+  attack_method: "Contract Vulnerability"
+  when: 1666224000000 # 2022-10-20
+  stolen_usd: 260000
+  stolen_usd_str: "$260,000"
+
+- title: "Earning.Farm"
+  urls:
+    - text: "X"
+      link: "https://x.com/SupremacyHQ/status/1581012823701786624"
+  description: "Earning.Farm’s EFLeverVault contract was attacked twice using flash loans. The first attack was intercepted by an MEV bot, causing a loss of 480 ETH, while the second was completed successfully, with the hacker making a profit of 268 ETH."
+  attack_method: "Flash Loan Attack"
+  when: 1665792000000 # 2022-10-15
+  stolen_usd: 351000
+  stolen_usd_str: "$351,000"
+
+- title: "ATK"
+  urls:
+    - text: "PANewsLab"
+      link: "https://www.panewslab.com/zh/sqarticledetails/q1qgvsgc.html"
+  description: "The Journey of Awakening (ATK) project suffered a flash loan attack, allowing an attacker to drain ATK tokens from its strategy contract. The stolen tokens were exchanged for $120,000 in BSC-USD and later converted to BNB and transferred to Tornado Cash."
+  attack_method: "Flash Loan Attack"
+  when: 1665534600000 # 2022-10-12
+  stolen_usd: 120000
+  stolen_usd_str: "$120,000"
+
+- title: "TempleDAO"
+  urls:
+    - text: X
+      link: https://x.com/SlowMist_Team/status/1579848760766926848
+  description: "The TempleDAO project was hacked, involving an amount of approximately $2.36 million because the migrateStake function did not check the oldStaking, the attacker could forge the oldStaking contract to add the balance arbitrarily."
+  attack_method: "Contract Vulnerability"
+  when: 1665448200000 # 2022-10-11
+  stolen_usd: 236000000
+  stolen_usd_str: "$2.36 Millions"
+
+- title: "Wintermute"
+  urls:
+    - text: X
+      link: https://x.com/EvgenyGaevoy/status/1572329148411936770
+  description: "Founder and CEO of crypto market maker Wintermute tweeted that Wintermute lost $160 million in DeFi hacking attacks. Wintermute used Profanity to create a wallet in order to optimize fees. Funds from old address were transferred, but due to internal (human) error, wrong function was called and attacked."
+  attack_method: "Operational Mistake"
+  when: 1663633800000 # 2022-09-20
+  stolen_usd: 160000000
+  stolen_usd_str: "$160 Millions"
+
+- title: "MAD"
+  urls:
+    - text: X
+      link: https://x.com/BeosinAlert/status/1542517440252624896
+  description: "ConvexFinance officially tweeted that a DNS attack caused users to approve malicious contracts on some interactions on the website."
+  attack_method: "DNS Attack"
+  when: 1656030600000 # 2022-06-24
+  stolen_usd: 270000
+  stolen_usd_str: "$270,000"
+
+- title: "ConvexFinance"
+  urls:
+    - text: X
+      link: https://x.com/ConvexFinance/status/1540104036229185536
+  description: "ConvexFinance officially tweeted that a DNS attack caused users to approve malicious contracts on some interactions on the website."
+  attack_method: "DNS Attack"
+  when: 1656030600000 # 2022-06-24
+  stolen_usd: 270000
+  stolen_usd_str: "$270,000"
+
+- title: "Ribbon Finance"
+  urls:
+    - text: Article
+      link: https://m.jinse.com/writings/1754332.html
+  description: "Ribbon Finance said in a tweet that the homepage of the URL suffered a DNS attack, causing 2 users to approve a malicious contract for vault deposits."
+  attack_method: "DNS Attack"
+  when: 1656030600000 # 2022-06-24
+  stolen_usd: 355000
+  stolen_usd_str: "$355,000"
+
+- title: "SNOOD"
+  urls:
+    - text: StackExchange
+      link: https://ethereum.stackexchange.com/questions/130472/attack-on-erc-777-smart-contract-and-uniswapv2pair-resulting-in-104-eth-liquidit
+  description: "The SNOOD ERC-777 smart contract was attacked, causing the liquidity of the UniswapV2Pair token to be completely drained (104 ETH)."
+  attack_method: "Reentrancy Attack"
+  when: 1655681400000 # 2022-06-20
+  stolen_usd: 125000
+  stolen_usd_str: "$250,000"
+
+- title: "Inverse Finance"
+  urls:
+    - text: X
+      link: https://x.com/InverseFinance/status/1537372199769845760
+  description: "Inverse Finance suffered a flash loan attack, resulting in a loss of approximately 1068.215 ETH (approximately $1.26 million). This is the second time that Inverse Finance has suffered a flash loan attack in the past two months. The main reason for this attack is the use of insecure oracles to calculate LP prices."
+  attack_method: "Flash Loan"
+  when: 1655339400000 # 2022-06-16
+  stolen_usd: 1260000
+  stolen_usd_str: "$1.26 Millions"  
+
+- title: "ApolloX"
+  urls:
+    - text: X
+      link: https://x.com/APX_Finance/status/1534810576198979586
+  description: "The ApolloX project was attacked due to a flaw in the ApolloX signature system. The attacker used the signature system flaw to generate 255 signatures, with a total of 53,946,802 $APX extracted from the contract"
+  attack_method: "Signature system flaws"
+  when: 1654907400000 # 2022-06-11
+  stolen_usd: 1600000
+  stolen_usd_str: "$1.60 Millions"
+
+
+- title: "Equalizer Finance"
+  urls:
+    - text: Medium
+      link: https://equalizer-finance.medium.com/exploit-report-78bfd6b36689
+  description: "Equalizer Finance suffered flash loan attacks on four chains: Ethereum, BSC, Polygon and Optimism. The main reason for this attack is that the FlashLoanProvider contract of the Equalizer Finance protocol is not compatible with the Vault contract. According to officials, funds on Ethereum and BSC have been recovered, but funds on Optimism and Polygon remain unaccounted for."
+  attack_method: "Compatibility Issue"
+  when: 1654561800000 # 2022-06-07
+  stolen_usd: 50000
+  stolen_usd_str: "$50,000"
+
+- title: "FEG"
+  urls:
+    - text: X
+      link: https://x.com/CertiKAlert/status/1526357878503768070
+  description: "The multi-chain DeFi protocol FEG was attacked and is caused by a vulnerability in the swapToSwap() function"
+  attack_method: "Flash Loan"
+  when: 1652747400000 # 2022-05-17
+  stolen_usd: 1900000
+  stolen_usd_str: "$1.9 Millions"
+
 - title: "Fei Protocol"
   urls:
-    - text: Twitter
-      link: https://twitter.com/feiprotocol/status/1520344430242254849
+    - text: X
+      link: https://x.com/feiprotocol/status/1520344430242254849
   description: "Fei Protocol officially tweeted that it has noticed multiple exploits of Rari Capital’s Fuse pool, has identified the root cause and suspended all lending to mitigate further losses."
   when: 1651361385000 # Saturday, April 30, 2022 11:29:45 PM
   stolen_usd: 80340000
-  stolen_usd_str: "$80.34 Million"
+  stolen_usd_str: "$80.34 Millions"
 
 - title: "Saddle Finance"
   urls:
-    - text: Twitter
-      link: https://twitter.com/saddlefinance/status/1520451021725741056
+    - text: X
+      link: https://x.com/saddlefinance/status/1520451021725741056
   description: "DeFi protocol Saddle Finance was attacked, causing the protocol to lose more than $10 million."
   when: 1651350585000 # Saturday, April 30, 2022 8:29:45 PM
   stolen_usd: 10000000
-  stolen_usd_str: "$10 Million"
+  stolen_usd_str: "$10 Millions"
 
 - title: "Beanstalk"
   urls:
-    - text: Twitter
-      link: https://twitter.com/BlockSecTeam/status/1515683983836979201
+    - text: X
+      link: https://x.com/BlockSecTeam/status/1515683983836979201
   description: "The protocol loss caused by the flash loan attack."
   when: 1650227385000 # Sunday, April 17, 2022 8:29:45 PM
   stolen_usd: 182000000
-  stolen_usd_str: "$182 Million"
+  stolen_usd_str: "$182 Millions"
 
 - title: "Marvin Inu"
   urls:
   description: "Marvin Inu’s cross-chain bridge was hacked, and tokens worth 110 ETH were stolen and sold, causing a sharp drop in price."
   when: 1649708985000 # Monday, April 11, 2022 8:29:45 PM
   stolen_usd: 300000
-  stolen_usd_str: "$0.3 Million"
+  stolen_usd_str: "$300,000"
 
 - title: "BasketDAO"
   urls:
-    - text: Twitter
-      link: https://twitter.com/BasketDAOOrg/status/1509009439315034115
+    - text: X
+      link: https://x.com/BasketDAOOrg/status/1509009439315034115
   description: "There is a vulnerability in BMIZapper, which caused users to lose about 1.2 million US dollars."
   when: 1648672185000 # Wednesday, March 30, 2022 8:29:45 PM
   stolen_usd: 1200000
-  stolen_usd_str: "$1.2 Million"
+  stolen_usd_str: "$1.2 Millions"
 
 - title: "Ronin Network"
   urls:
@@ -49,7 +1242,7 @@
   description: "Axie Infinity sidechain Ronin Network issued a community alert today. Ronin Network experienced a security breach. The attacker used the hacked private key to forge fake withdrawals, pulling funds out of the Ronin bridge in just two transactions."
   when: 1648412985000 # Sunday, March 27, 2022 8:29:45 PM
   stolen_usd: 610000000
-  stolen_usd_str: "$610 Million"
+  stolen_usd_str: "$610 Millions"
 
 - title: "Revest Finance"
   urls:
@@ -58,7 +1251,7 @@
   description: "DeFi protocol Revest Finance has been hacked with reentrancy attack."
   when: 1648412985000 # Sunday, March 27, 2022 8:29:45 PM
   stolen_usd: 120000
-  stolen_usd_str: "$0.12 Million"
+  stolen_usd_str: "$120,000"
 
 - title: "Li.finance"
   urls:
@@ -67,18 +1260,18 @@
   description: "According to official reports, attackers exploited Li.finance’s smart contracts and managed to steal around $600,000. Attackers took various tokens from users’ wallets."
   when: 1647808185000 # Sunday, March 20, 2022 8:29:45 PM
   stolen_usd: 600000
-  stolen_usd_str: "$0.6 Million"
+  stolen_usd_str: "$600,000"
 
 - title: "Umbrella Network"
   urls:
-    - text: Twitter
-      link: https://twitter.com/UmbNetwork/status/1505529412695076868
+    - text: X
+      link: https://x.com/UmbNetwork/status/1505529412695076868
     - text: Medium
       link: https://medium.com/uno-re/umbrella-network-hacked-700k-lost-97285b69e8c7
   description: "DeFi oracle Umbrella Network’s Ethereum and BNB Chain (formerly BSC) reward pools were hacked, resulting in the hackers earning around $700,000. The hacker was able to succeed because of an unchecked vulnerability in withdraw()."
   when: 1647376185000 # Tuesday, March 15, 2022 8:29:45 PM
   stolen_usd: 700000
-  stolen_usd_str: "$0.7 Million"
+  stolen_usd_str: "$700,000"
 
 - title: "Deus Finance"
   urls:
@@ -87,16 +1280,16 @@
   description: "DeFi protocol Deus Finance was attacked by a flash loan, and hackers manipulated the price of the oracle machine and stole about $3 million."
   when: 1647376185000 # Tuesday, March 15, 2022 8:29:45 PM
   stolen_usd: 3000000
-  stolen_usd_str: "$3 Million"
+  stolen_usd_str: "$3 Millions"
 
 - title: "RigoBlock"
   urls:
-    - text: Twitter
-      link: https://twitter.com/RigoBlock/status/1494351180713050116
+    - text: X
+      link: https://x.com/RigoBlock/status/1494351180713050116
   description: "RigoBlock has been hacked. All tokens in Dragos except ETH and USDT are at risk due to protocol vulnerabilities being exploited. The hacker, Whitehat, has returned funds to the affected RigoBlock pool, leaving only 10% of the bug bounty reward."
   when: 1645216185000 # Friday, February 18, 2022 8:29:45 PM
   stolen_usd: 500000
-  stolen_usd_str: "$0.5 Million"
+  stolen_usd_str: "$500,000"
 
 - title: "Build Finance"
   urls:
@@ -105,7 +1298,7 @@
   description: "The venture capital DAO organization Build Finance tweeted that the project suffered a malicious governance takeover."
   when: 1644956985000 # Tuesday, February 15, 2022 8:29:45 PM
   stolen_usd: 500000
-  stolen_usd_str: "$0.5 Million"
+  stolen_usd_str: "$500,000"
 
 - title: "Meter.io"
   urls:
@@ -116,7 +1309,7 @@
   description: "The hacker was able to exploit a vulnerability in the deposit function, which allowed them to fake BNB or ETH transfers."
   when: 1644179385000 # Sunday, February 6, 2022 8:29:45 PM
   stolen_usd: 4300000
-  stolen_usd_str: "$4.3 Million"
+  stolen_usd_str: "$4.3 Millions"
 
 - title: "CRP Multichain"
   urls:
@@ -125,7 +1318,7 @@
   description: "Hackers have continued to exploit a critical vulnerability in the cross-chain router protocol (CRP) Multichain that first appeared on Monday."
   when: 1642708227000 # Thursday, January 20, 2022 7:50:27 PM
   stolen_usd: 3000000
-  stolen_usd_str: "$3 Million"
+  stolen_usd_str: "$3 Millions"
 
 - title: "BadgerDAO"
   urls:
@@ -134,7 +1327,7 @@
   description: "BadgerDAO (BADGER) suffered a front-end attack that was discovered on Dec. 2 with estimates of Badger’s losses hitting more than $120 million."
   when: 1638466161000 # Thursday, December 2, 2021 5:29:21 PM
   stolen_usd: 120000000
-  stolen_usd_str: "$120 Million"
+  stolen_usd_str: "$120 Millions"
     
 - title: "MonoX"
   urls:
@@ -143,7 +1336,7 @@
   description: "Multi-chain decentralized exchange (DEX) MonoX (MONO) suffered a cyber attack on Nov. 30 leading to about $31 million in losses."
   when: 1638232161000 # Tuesday, November 30, 2021 12:29:21 AM
   stolen_usd: 31000000
-  stolen_usd_str: "$31 Million"
+  stolen_usd_str: "$31 Millions"
 
 - title: "CREAM"
   urls:
@@ -152,7 +1345,7 @@
   description: "An attacker has gained over $130 million in an flash loan attack that appears to have drained CREAM’s coffers."
   when: 1635340777000 # Wed Oct 27 2021 13:19:37 GMT+0000
   stolen_usd: 130000000
-  stolen_usd_str: "$130 Million"
+  stolen_usd_str: "$130 Millions"
   
 - title: "Compound"
   urls:
@@ -161,7 +1354,7 @@
   description: "A new upgrade to the Compound Finance protocol has contained a bug that leaves some users with unusual amounts of COMP token as rewards to be claimed."
   when: 1633066979000 # Thu Sep 16 2021 22:00:00 GMT+0000
   stolen_usd: 80000000
-  stolen_usd_str: "$80 Million"
+  stolen_usd_str: "$80 Millions"
 
 - title: "MISO (Sushiswap)"
   urls:
@@ -170,168 +1363,168 @@
   description: "The protocol’s token platform MISO became the victim of a supply chain attack."
   when: 1631829600000 # Thu Sep 16 2021 22:00:00 GMT+0000
   stolen_usd: 3000000
-  stolen_usd_str: "$3 Million"
+  stolen_usd_str: "$3 Millions"
 
 - title: "DAO Maker"
   urls:
   description: "There is a loophole in the distribution system of SHO participants: init is not initialized protection, the attacker initializes the key parameters of init, and changes the owner at the same time, and then steals the target token through emergencyExit and exchanges it into DAI, attacking The final profit of nearly 4 million U.S. dollars."
   when: 1630706400000 # Fri Sep 03 2021 22:00:00 GMT+0000
   stolen_usd: 4000000
-  stolen_usd_str: "$4 Million"
+  stolen_usd_str: "$4 Millions"
 
 - title: "Cream Finance"
   urls:
   description: "A flash loan attack occurred in Cream Finance, a mortgage lending platform. In its post-mortem analysis report of the flash loan attack, it stated that a total of 460 million AMP tokens and 2804 ETH (worth approximately US$34 million at the time) were stolen due to the omission."
   when: 1630274400000 # Sun Aug 29 2021 22:00:00 GMT+0000
   stolen_usd: 34000000
-  stolen_usd_str: "$34 Million"
+  stolen_usd_str: "$34 Millions"
   
 - title: "xToken"
   urls:
   description: "The DeFi pledge and liquidity strategy platform xToken, which suffered a lightning loan attack, released an analysis report on the vulnerability of the xSNX contract."
   when: 1630188000000 # Sat Aug 28 2021 22:00:00 GMT+0000
   stolen_usd: 4500000
-  stolen_usd_str: "$4.5 Million"
+  stolen_usd_str: "$4.5 Millions"
 
 - title: "Punk Protocol"
   urls:
   description: "The Punk Protocol team stated that the attacker found a critical loophole in the investment strategy and extracted more than 8.9 million U.S. dollars of three stable currency assets (USDC, USDT, DAI) from the Forge-CompoundModel module, but a white hat hacker noticed The attacker's intent was reached, so a transaction was executed, which was able to recover $4.95 million."
   when: 1628632800000 # Tue Aug 10 2021 22:00:00 GMT+0000
   stolen_usd: 3950000
-  stolen_usd_str: "$4 Million"
+  stolen_usd_str: "$4 Millions"
   
 - title: "Poly Network"
   urls:
   description: "Poly Network was attacked, and a total of more than 620 million US dollars were transferred to 3 addresses even if the hackers have now returned tokens worth 342 million U.S. dollars."
   when: 1628546400000 # Mon Aug 09 2021 22:00:00 GMT+0000
   stolen_usd: 620000000
-  stolen_usd_str: "$620 Million"
+  stolen_usd_str: "$620 Millions"
 
 - title: "Popsicle Finance"
   urls:
   description: "Popsicle Finance, a multi-chain revenue optimization platform, was attacked. The core of this vulnerability is that the same PLP certificate can bring benefits to multiple holders at the same time node due to the defect in the reward update record."
   when: 1628028000000 # Tue Aug 03 2021 22:00:00 GMT+0000
   stolen_usd: 20000000
-  stolen_usd_str: "$20 Million"
+  stolen_usd_str: "$20 Millions"
 
 - title: "THORChain"
   urls:
   description: "THORChain (RUNE), a decentralized cross-chain transaction protocol, said it was attacked again, and many ERC20 tokens including XRUNE were affected."
   when: 1626991200000 # Thu Jul 22 2021 22:00:00 GMT+0000
   stolen_usd: 8000000
-  stolen_usd_str: "$8 Million"
+  stolen_usd_str: "$8 Millions"
   
 - title: "Sanshu Inu"
   urls:
   description: "Using the mechanism of deflation token KEANU to attack the reward vulnerabilities in the Memestake contract deployed by Sanshu Inu, the attacker finally made a profit of about 56 ETH."
   when: 1626818400000 # Tue Jul 20 2021 22:00:00 GMT+0000
   stolen_usd: 170000
-  stolen_usd_str: "$0.17 Million"
+  stolen_usd_str: "$170,000"
 
 - title: "Array Finance"
   urls:
   description: "The DeFi project Array Finance was attacked by a lightning loan. The attacker used Array Finance's pricing mechanism to rely on aBPT's totalSupply to attack Array Finance."
   when: 1626645600000 # Sun Jul 18 2021 22:00:00 GMT+0000
   stolen_usd: 515000
-  stolen_usd_str: "$0.52 Million"
+  stolen_usd_str: "$515,000"
 
 - title: "THORChain"
   urls:
   description: "The decentralized cross-chain transaction protocol THORChain (RUNE) updated the attack situation, claiming that the amount of lost assets was about 4000 ETH."
   when: 1626386400000 # Thu Jul 15 2021 22:00:00 GMT+0000
   stolen_usd: 7600000
-  stolen_usd_str: "$7.6 Million"
+  stolen_usd_str: "$7.6 Millions"
   
 - title: "DeFiPie"
   urls:
   description: "DeFiPie (PIE), the lending protocol on the Ethereum and Binance smart chains, was hacked with Reentry Attack."
   when: 1626127200000 # Mon Jul 12 2021 22:00:00 GMT+0000
   stolen_usd: 125000
-  stolen_usd_str: "$0.13 Million"
+  stolen_usd_str: "$125,000"
 
 - title: "Anyswap"
   urls:
   description: "The cross-chain bridge project Anyswap issued an announcement stating that the newly launched V3 cross-chain liquidity pool was hacked in the early hours of yesterday, with a total loss of 2.39 million USDC and 5.5 million MIM."
   when: 1626040800000 # Sun Jul 11 2021 22:00:00 GMT+0000
   stolen_usd: 7870000
-  stolen_usd_str: "$7.9 Million"
+  stolen_usd_str: "$7.9 Millions"
 
 - title: "Chainswap"
   urls:
   description: "The cross-chain bridge Chainswap announced the details of the stolen incident on its official blog. A total of 20 project assets were stolen, with a total value of approximately US$4 million."
   when: 1625954400000 # Sat Jul 10 2021 22:00:00 GMT+0000
   stolen_usd: 4000000
-  stolen_usd_str: "$4 Million"
+  stolen_usd_str: "$4 Millions"
   
 - title: "DAO ventures"
   urls:
   description: "According to official sources, the DeFi asset management platform DAO ventures was stolen 300,000 DVG tokens due to a loophole in the ChainSwap contract of the cross-chain asset bridge."
   when: 1625954400000 # Sat Jul 10 2021 22:00:00 GMT+0000
   stolen_usd: 40000
-  stolen_usd_str: "$0.04 Million"
+  stolen_usd_str: "$40,000"
 
 - title: "Umbrella Network"
   urls:
   description: "According to official sources, the DeFi oracle Umbrella Network was stolen over 3 million UMB tokens due to a loophole in the ChainSwap contract of the cross-chain asset bridge."
   when: 1625954400000 # Sat Jul 10 2021 22:00:00 GMT+0000
   stolen_usd: 500000
-  stolen_usd_str: "$0.5 Million"
+  stolen_usd_str: "$500,000"
 
 - title: "Haven Protocol"
   urls:
   description: "203,000 xUSD and 13.5 xBTC were minted in two attacks; on June 27, an unknown amount of XHV was minted due to a vulnerability in the conversion verification of xAsset; June 29 , The attacker exploited a vulnerability that allowed the minting of 9 million xUSD."
   when: 1625263200000 # Fri Jul 02 2021 22:00:00 GMT+0000
   stolen_usd: 8190000
-  stolen_usd_str: "$8.2 Million"
+  stolen_usd_str: "$8.2 Millions"
   
 - title: "DEXTools"
   urls:
   description: "The DEX trading tool DEXTools (DEXT) tweeted that it was recently hacked and affected some DEXT holders. In this regard, the liquidity has been removed from Uniswap and Pancake"
   when: 1625263200000 # Fri Jul 02 2021 22:00:00 GMT+0000
   stolen_usd: 0
-  stolen_usd_str: "$0 Million"
+  stolen_usd_str: "$0"
 
 - title: "THORChain"
   urls:
   description: "THORChain, a decentralized cross-chain transaction protocol, tweeted that a malicious attack against THORChain was discovered. THORChain nodes have responded and isolated defenses."
   when: 1624917600000 # Mon Jun 28 2021 22:00:00 GMT+0000
   stolen_usd: 140000
-  stolen_usd_str: "$0.14 Million"
+  stolen_usd_str: "$140,000"
 
 - title: "Wild Credit"
   urls:
   description: "The DeFi protocol Wild Credit on Ethereum suffered a white hat attack, and the attacker has returned a total of $650,000."
   when: 1624658400000 # Sat Jun 26 2021 22:00:00 GMT+0000
   stolen_usd: 0
-  stolen_usd_str: "$0 Million"
+  stolen_usd_str: "$0"
 
 - title: "SharedStake"
   urls:
   description: "SharedStake token was minted before the official launch was due to the use of vulnerabilities in time-locked contracts. A team member had permission to view the vulnerability, he used the vulnerability to cast a value of about 50 on the main network four times on June 19 and 23."
   when: 1624485600000 # Wed Jun 23 2021 22:00:00 GMT+0000
-  stolen_usd: 6530000
-  stolen_usd_str: "$0.5 Million"
+  stolen_usd: 500000
+  stolen_usd_str: "$500,000"
 
 - title: "Alchemix"
   urls:
   description: "Alchemix released an alETH pool accident report stating that due to an error in the deployment of the alETH pool script, users have borrowed alETH at a 4:1 mortgage ratio but have no debt to be repaid, and the debt ceiling of nearly 2000 ETH has been released and new ones can be minted again."
   when: 1623535200000 # Sat Jun 12 2021 22:00:00 GMT+0000
   stolen_usd: 6530000
-  stolen_usd_str: "$6,53 Million"
+  stolen_usd_str: "$6,53 Millions"
 
 - title: "xToken"
   urls:
   description: "The DeFi pledge and liquidity strategy platform xToken was attacked, and the xBNTaBancor pool and the xSNXaBalancer pool were immediately exhausted, causing nearly $25 million in losses."
   when: 1623535200000 # Sat Jun 12 2021 22:00:00 GMT+0000
-  stolen_usd: 7000000
-  stolen_usd_str: "$7 Million"
+  stolen_usd: 25000000
+  stolen_usd_str: "$25 Millions"
 
 - title: "FinNexus"
   urls:
   description: "The token FNX of the on-chain option agreement FinNexus has been minted, transferred or sold in a large amount in a short period of time, involving more than 300 million FNX tokens (approximately US$7 million) in BSC and Ethereum."
   when: 1621202400000 # Sun May 16 2021 22:00:00 GMT+0000
   stolen_usd: 7000000
-  stolen_usd_str: "$7 Million"
+  stolen_usd_str: "$7 Millions"
 
 - title: "RARI"
   urls:
@@ -342,7 +1535,7 @@
   description: "Rari Capital announced there was an exploit in the Rari Capital ETH Pool related to its Alpha Finance Lab integration."
   when: 1620470989000 # Sat May 08 2021 10:49:49 GMT+0000
   stolen_usd: 11000000
-  stolen_usd_str: "$11 Million"
+  stolen_usd_str: "$11 Millions"
   
 - title: "DODO"
   urls:
@@ -353,7 +1546,7 @@
   description: "The hacks and exploits on DeFi projects continue, and the latest victim to fall is the decentralized exchange platform – DODO. The attack targeted several V2 Crowdpools."
   when: 1615296610000 # Tue Mar 09 2021 13:30:10 GMT+0000
   stolen_usd: 3800000
-  stolen_usd_str: "$3.8 Million"
+  stolen_usd_str: "$3.8 Millions"
 
 - title: "Paid Network PAID"
   urls:
@@ -364,7 +1557,7 @@
   description: "Someone exploited PAID contract, printed 51 Million PAID and dumped on the market. Hacker presumably got 3.5M USD."
   when: 1614963829000 # Fri Mar 05 2021 17:03:49 GMT+0000
   stolen_usd: 3500000
-  stolen_usd_str: "$3.5 Million"
+  stolen_usd_str: "$3.5 Millions"
 
 - title: "Furucombo COMBO"
   urls:
@@ -375,7 +1568,7 @@
   description: "An attacker made Furuсombo think that Aave V2 has a new implementation. Because of this, all interactions with Aave V2 allowed transfers approved tokens to an arbitrary address."
   when: 1614384000000 # 2021-02-27
   stolen_usd: 14000000
-  stolen_usd_str: "$14 Million"
+  stolen_usd_str: "$14 Millions"
   
 - title: "Iron Bank CREAM"
   urls:
@@ -386,7 +1579,7 @@
   description: "The exploit involved the use of CREAM Finance's Iron Bank service, which gives out uncollateralized loans to trusted smart contracts."
   when: 1613174400000 # 2021-02-13
   stolen_usd: 37500000
-  stolen_usd_str: "$37.5 Million"
+  stolen_usd_str: "$37.5 Millions"
 
 - title: "Yearn Finance"
   urls:
@@ -397,7 +1590,7 @@
   description: "DeFi protocol Yearn Finance has reported that its DAI vault was exploited by a hacker."
   when: 1612483200000 # 2021-02-05
   stolen_usd: 11000000
-  stolen_usd_str: "$11 Million"
+  stolen_usd_str: "$11 Millions"
 
 - title: "Cover Protocol"
   urls:
@@ -408,7 +1601,7 @@
   description: "A bug was exploited in the Cover protocol’s liquidity mining/farming contract called Blacksmith. Multiple hackers used the bug to mint practically infinite tokens."
   when: 1609113600000 # 2020-12-28
   stolen_usd: 5000000
-  stolen_usd_str: "$5 Million ($3M Returned)"
+  stolen_usd_str: "$5 Millions"
 
 - title: "Warp Finance"
   urls:
@@ -419,7 +1612,7 @@
   description: "Funds stolen in a flash loan attack."
   when: 1608249600000 # 2020-12-18
   stolen_usd: 7700000
-  stolen_usd_str: "$7.7 Million"
+  stolen_usd_str: "$7.7 Millions"
 
 - title: "Pickle Finance"
   urls:
@@ -430,7 +1623,7 @@
   description: "The DeFi protocol Pickle Finance lost nearly $20 million in DAI in a loophole on Saturday. The exploit involves Pickle Finance's DAI pJar product, which uses the Compound protocol to reap revenue through DAI deposits."
   when: 1606003200000 # 2020-11-22
   stolen_usd: 20000000
-  stolen_usd_str: "$20 Million"
+  stolen_usd_str: "$20 Millions"
 
 - title: "OUSD"
   urls:
@@ -439,7 +1632,7 @@
   description: "Funds stolen in a flash loan attack."
   when: 1605571200000 # 2020-11-17
   stolen_usd: 7000000
-  stolen_usd_str: "$7 Million"
+  stolen_usd_str: "$7 Millions"
 
 - title: "Cheese Bank"
   urls:
@@ -448,7 +1641,7 @@
   description: "Funds stolen in a flash loan attack."
   when: 1605484800000 # 2020-11-16
   stolen_usd: 3300000
-  stolen_usd_str: "$3.3 Million"
+  stolen_usd_str: "$3.3 Millions"
 
 - title: "Value DeFi"
   urls:
@@ -459,7 +1652,7 @@
   description: "Funds stolen in a flash loan attack."
   when: 1605312000000 # 2020-11-14
   stolen_usd: 6000000
-  stolen_usd_str: "$6 Million"
+  stolen_usd_str: "$6 Millions"
 
 - title: "Akropolis"
   urls:
@@ -468,7 +1661,7 @@
   description: "Hackers took advantage of the storage asset verification flaws in the Akropolis project to launch multiple consecutive reentry attacks on the contract."
   when: 1605225600000 # 2020-11-13
   stolen_usd: 2000000
-  stolen_usd_str: "$2 Million"
+  stolen_usd_str: "$2 Millions"
 
 - title: "PercentFinance"
   urls:
@@ -495,7 +1688,7 @@
   description: "The attacker used an exploit to flash loans to manipulate stablecoin prices on the decentralized exchange Curve and used arbitrage to buy more stablecoins than they would normally be able to."
   when: 1603670400000 # 2020-10-26
   stolen_usd: 33800000
-  stolen_usd_str: "$33.8 Million"
+  stolen_usd_str: "$33.8 Millions"
 
 - title: "WLEO"
   urls:
@@ -522,7 +1715,7 @@
   description: "Users threw $15 million into this contract that was in the beta stage and it had a vulnerability, and hackers drained users’ funds by minting EMN tokens."
   when: 1601337600000 # 2020-09-29
   stolen_usd: 15000000
-  stolen_usd_str: "$15 Million ($8M Returned)"
+  stolen_usd_str: "$15 Millions"
 
 - title: "Soda Finance"
   urls:
@@ -540,7 +1733,7 @@
   description: "While the first two exploits involved manipulating external protocols, this third hack took advantage of an internal protocol flaw."
   when: 1600041600000 # 2020-09-14
   stolen_usd: 8000000
-  stolen_usd_str: "$8 Million (Returned)"
+  stolen_usd_str: "$8 Millions"
 
 - title: "Soft Yearn (SYFI)"
   urls:
@@ -625,7 +1818,7 @@
   description: "A hacker took $25 million from a decentralized lending platform Lendf.me. He used a vulnerability from ERC-777 token standard. The Hacker returned the money to the admin."
   when: 1587269261000 # 2020-04-19
   stolen_usd: 25000000
-  stolen_usd_str: "$25 Million (Returned)"
+  stolen_usd_str: "$25 Millions"
 
 - title: "Uniswap"
   urls:
@@ -654,7 +1847,7 @@
   description: "The platform ended up in over $8 million in debt as some of its loans were liquidated for free."
   when: 1581465600000 # 2020-03-12
   stolen_usd: 8000000
-  stolen_usd_str: "$8 Million"
+  stolen_usd_str: "$8 Millions"
 
 - title: "SpankChain"
   urls:
@@ -672,7 +1865,7 @@
   description: "A wallet used to upgrade smart contracts was hacked, and withdrew most of the money."
   when: 1531180800000 # 2018-07-10
   stolen_usd: 23500000
-  stolen_usd_str: "$23.5 Million"
+  stolen_usd_str: "$23.5 Millions"
 
 - title: "Parity"
   urls:
@@ -681,7 +1874,7 @@
   description: "The issue is the result of a bug in a specific multi-signature contract."
   when: 1500508800000 # 2017-07-20
   stolen_usd: 30000000
-  stolen_usd_str: "$30 Million"
+  stolen_usd_str: "$30 Millions"
 
 - title: "The DAO"
   urls:
@@ -690,9 +1883,7 @@
   description: "The DAO smart contract running on the Ethereum suffered a reentrancy-attack-on-smart-contract."
   when: 1497657600000 # 2017-06-17
   stolen_usd: 60000000
-  stolen_usd_str: "$60 Million"
-
-# Tokens
+  stolen_usd_str: "$60 Millions"
 
 - title: SmartMesh (SMT) Token
   urls:
@@ -703,7 +1894,7 @@
   description: SmartMesh (SMT) has an overflow vulnerability, the attacker performs an overflow attack by calling batchTransfers like BEC Token.
   when: 1524614400000
   stolen_usd: 0
-  stolen_usd_str: "Unknown"
+  stolen_usd_str: "$0"
 
 - title: Beautychain (BEC) Token
   urls:
@@ -712,4 +1903,4 @@
   description: "Hacker exploited the data overflow to attack the smart contract of BeautyChain, successfully transferred the BEC token to the two addresses resulted in the massive BEC being sold in the market"
   when: 1524355200000
   stolen_usd: 0
-  stolen_usd_str: "Unknown"
+  stolen_usd_str: "$0"
